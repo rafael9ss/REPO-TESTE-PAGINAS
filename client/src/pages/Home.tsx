@@ -4,89 +4,92 @@ import { Check, Heart, Shield, Users, Zap, Gift } from "lucide-react";
 export default function Home() {
   const heroImage = "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/3FNxqMAY9aEBRu6Qx58PIR-img-1_1770756210000_na1fn_aGVyby1icmF6aWxpYW4tYmlraW5p.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94LzNGTnhxTUFZOWFFQlJ1NlF4NThQSVItaW1nLTFfMTc3MDc1NjIxMDAwMF9uYTFmbl9hR1Z5YnkxaWNtRjZhV3hwWVc0dFltbHJhVzVwLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=buHHLvAqlm8iEpBEaj7h7RXd4en39WWDCirFYKb6fiKoRbUEG04c5g62TyejJQ9aFGpG2pvefu1fyCSZKp7xBqMwAJNvlylFGe-FVNgNj07SC3HiH0vROwyj7rh9WDK8CTXocQgZ7SP7Q8lEoSiHwlYN6kMicbJJSaiQBsllK7spDAKC~4sF8W8-BAO6eb4cAFAA2rWVHyd8TpuJWZgaV9tkYeqCTYWtGYM7Uj3bt0ezFpIH8sTPs9KeYNgg~lc9-Wkfmajxbb1X8dYfkSl3yAkGrEpCZLjwc4g9CiRt-7TvwdHirkRNP8h3NmY9LprlddYYepiZagdIiDxUcgm-ww__";
   
-  const gymImage = "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/3FNxqMAY9aEBRu6Qx58PIR-img-2_1770756213000_na1fn_Z3ltLXdvcmtvdXQtYnJhemlsaWFu.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94LzNGTnhxTUFZOWFFQlJ1NlF4NThQSVItaW1nLTJfMTc3MDc1NjIxMzAwMF9uYTFmbl9aM2x0TFhkdmNtdHZkWFF0WW5KaGVtbHNhV0Z1LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=P7Ug~-FKsspUE-o~EHOJcK4Syk4FIG8DR0bDGncuVhS3J5F3h-LetukVc1JGjj-~jpYAoJ991Fvw-4R6BdMRbVtac8p3NOSA1CSlLb72z~fj41RJuW3PvTtlZaNWIj3Jc2bVQehBM0e4LCzCtYTHtM3E9U~eoqIMFIQ7hgQm7xmQ7nrlbKfI3CeEkAiTf1FyDzJmxW3DOvzmsw~U1lIDQ3DRki3QlRh~3iOLTYvNWOkPmhnA3UHFP6o0onGlEdJiU0Rw85W-D3CzQI2JW4N0cWk4m4PuQy~EAgibDqS8s9QDsDsnXHLVbv89d9HNBJJ4PRAs52oFmDM-vmKfcrD7cQ__";
+  const gymImage = "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/3FNxqMAY9aEBRu6Qx58PIR-img-2_1770756213000_na1fn_Z3ltLXdvcmtvdXQtYnJhemlsaWFu.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94LzNGTnhxTUFZOWFFQlJ1NlE4NThQSVItaW1nLTJfMTc3MDc1NjIxMzAwMF9uYTFmbl9aM2x0TFhkdmNtdHZkWFF0WW5KaGVtbHNhV0Z1LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=P7Ug~-FKsspUE-o~EHOJcK4Syk4FIG8DR0bDGncuVhS3J5F3h-LetukVc1JGjj-~jpYAoJ991Fvw-4R6BdMRbVtac8p3NOSA1CSlLb72z~fj41RJuW3PvTtlZaNWIj3Jc2bVQehBM0e4LCzCtYTHtM3E9U~eoqIMFIQ7hgQm7xmQ7nrlbKfI3CeEkAiTf1FyDzJmxW3DOvzmsw~U1lIDQ3DRki3QlRh~3iOLTYvNWOkPmhnA3UHFP6o0onGlEdJiU0Rw85W-D3CzQI2JW4N0cWk4m4PuQy~EAgibDqS8s9QDsDsnXHLVbv89d9HNBJJ4PRAs52oFmDM-vmKfcrD7cQ__";
 
   const testimonials = [
     {
       name: "Priscila Santos",
       location: "São Paulo, Brasil",
-      story: "Mãe de dois filhos",
-      text: "Depois de ser mãe, pensei que nunca mais teria meu corpo de volta. Descobri que não preciso de dietas extremas, só de estratégia. Perdi 14 kg em 3 meses e mantive minhas curvas. Meu marido não me reconhecia!",
-      image: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/D4H4naGT8vUJBxpXYyVCaj-img-1_1770756146000_na1fn_dGVzdGltb25pYWwtYmxhY2std29tYW4.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L0Q0SDRuYUdUOHZVSkJ4cFhZeVZDYWotaW1nLTFfMTc3MDc1NjE0NjAwMF9uYTFmbl9kR1Z6ZEdsdGIyNXBZV3d0WW14aFkyc3RkMjl0WVc0LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=l7CzFGmraE5~rsP8U0-CWnRF6rkCRssh8jfIBLZkX0vfF5LeE4~J4btgJK9kLH5WK-zZnAVwZgufprOIBAcMBtCXGoQwKoZPS2CwX1ws5sSSqJSnlVpqES-g-YQ1NfVG9FR1pjntAKuua1b5hBZ1D3ibFkPngPIHNfuT4BMPhY1kTfyN4zbB1-kQlQjmqvil7~-wIgAjJbb8L6a2~gH7DRvIjETJ12dPqXj-OXh~cyHAiYwIkOUzrHs4bVcgojzB0HzC8JC4nmPT0UcNAkGDvL4PcHZHEF-f1vYm9bDN6GSnp~qgyTnh7883cWxy8n7hAtMkt8MsgawpasFWRaIBKg__"
+      story: "Mamá de dos hijos",
+      text: "Después de ser mamá, pensé que nunca volvería a tener mi cuerpo. Descubrí que no necesito dietas extremas, solo estrategia. Perdí 14 kg en 3 meses y mantuve mis curvas. ¡Mi marido no me reconocía!",
+      imageBefore: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/euuPgHhqdH7MpEXmeeotJJ-img-1_1770757725000_na1fn_YmVmb3JlLWFmdGVyLWJsYWNrLXdvbWFuLWJlZm9yZQ.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L2V1dVBnSGhxZEg3TXBFWG1lZW90SkotaW1nLTFfMTc3MDc1NzcyNTAwMF9uYTFmbl9ZbVZtYjNKbExXRm1kR1Z5TFdKc1lXTnJMWGR2YldGdUxXSmxabTl5WlEucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=TYVvIVQTB68s5dYCyLvczf76lILzsEmhJBvdq4CSZMoJ2kmdDCKu7OMb0JIhys~KnaZ5E6GWTk3J2-3N0DLdS3efmcA9vty4sanqrHzl1yeG~5EesaB8VG2c7A-QRgq5Q~qRpUwW~E~sMosr4coC0-fxew6Cbs5XNxvjDd8g0a8ips~3awyGEBsEQF1k0iJM-WyDUFctMf9RM7aR0NeVHtWwpv2dyNtoWvuQsjAFklT0HV~0pM-YZCyRHWwQuUXwR5~6nkAk~apo45YtiabvBGgqutxLvfYbyY~r1RGig5OcstjY0UfG7gjG8zvg1sYvNy~aUaHbnpGrLkfm04tH1A__",
+      imageAfter: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/euuPgHhqdH7MpEXmeeotJJ-img-2_1770757723000_na1fn_YmVmb3JlLWFmdGVyLWJsYWNrLXdvbWFuLWFmdGVy.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L2V1dVBnSGhxZEg3TXBFWG1lZW90SkotaW1nLTJfMTc3MDc1NzcyMzAwMF9uYTFmbl9ZbVZtYjNKbExXRm1kR1Z5TFdKc1lXTnJMWGR2YldGdUxXRm1kR1Z5LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=qLoY7kzWAN5lWfjlKBJUe8ZnMSWXDMEajwgKURHNu480ll8b-rj-L-FlAgBL4xLs5y4RxGGsZoEi9-oCnR5WQ2EcVhPg6Hce7EvK2gGI6yiauHr08fUCzau5952Whm6KZxkYTYNUrDdIMxLwzUtUsY86Ewk5XJ8~~-5zA2YTnHahNHEim9kDGmPGgEHKLIXxpvA1j9qYdBxic-bufLbHDpvdmMncgFiFzw1wgMbmPVwAYYhPTB0uJftSI1jIZK0reYbkoLp40T7b0XSztXkyh2psKnTS6n7IolsePYKBQmLTOeNt0CcxJgSw~LlaSUAdWN~5q3yM7xnjSjN890PONg__"
     },
     {
       name: "Fernanda Costa",
       location: "Rio de Janeiro, Brasil",
-      story: "Ex-obesa, transformação completa",
-      text: "Pesava 95 kg e achava que nunca sairia daquele ciclo. A dieta das brasileiras me mostrou que posso comer o que gosto com inteligência. Hoje peso 68 kg e me sinto uma deusa. Sem restrição, sem culpa!",
-      image: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/D4H4naGT8vUJBxpXYyVCaj-img-2_1770756147000_na1fn_dGVzdGltb25pYWwtbW9yZW5hLXdvbWFu.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L0Q0SDRuYUdUOHZVSkJ4cFhZeVZDYWotaW1nLTJfMTc3MDc1NjE0NzAwMF9uYTFmbl9kR1Z6ZEdsdGIyNXBZV3d0Ylc5eVpXNWhMWGR2YldGdS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=NLWBJXsE~j5lecU0rpvvEOyziLHnMSBUyvfaDHjC2IXBqU3rzpKf9MYKyllbmoO7ukb1kcXUGQ55NZgBMqurX3kv~ny5JVxGWRK41~dpjRYX5BGlX3D76p6UpIltI06xfRiiKUCiLpanJSxThz~0lp6aqFH1SqR9AjNEgUznyGNxes2r4BN9SGXGIXM0oRMtTEuyILpQPHacWiKdIgc6sjSOFCiqOZlLfwV4yhrU~cSEzQKXv2NP~6521avH2MUzIRxfFuJoDrtHNQZ7pH3f8BDCl9pbuXPLB3buatCDZ6xP3lwMjLkeY~dfLiL4ZnqrSI6pkQ98AkO20LSYtVYi3g__"
+      story: "Ex-obesa, transformación completa",
+      text: "Pesaba 95 kg y pensé que nunca saldría de ese ciclo. La dieta de las brasileñas me mostró que puedo comer lo que me gusta con inteligencia. Hoy peso 68 kg y me siento una diosa. ¡Sin restricción, sin culpa!",
+      imageBefore: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/euuPgHhqdH7MpEXmeeotJJ-img-3_1770757726000_na1fn_YmVmb3JlLWFmdGVyLW1vcmVuYS1iZWZvcmU.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L2V1dVBnSGhxZEg3TXBFWG1lZW90SkotaW1nLTNfMTc3MDc1NzcyNjAwMF9uYTFmbl9ZbVZtYjNKbExXRm1kR1Z5TFcxdmNtVnVZUzFpWldadmNtVS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=ATLLOLoJkgCNOp8q6Y0aZnMKtpdZiesuBfRQX2giNOJlsiuRrt5BF6xJ3DTR8ARjJeoJfAf-Vzpmv5mYY9tH-jpgrH6CUcHln6bJdRFkMazKDKIq4BmWYq4wHPMRICuFHkT3wcm0KJLov8peixB5NPNfSyw7Tyhzyt-svLIqCJTpdqR30ZEF0kKPyIt4qv0eUVFhzGM2E5gwU5lcyv2EY5qqqqygdHHFPFIv~2zP~dhgDHaxbfQ~jtQHNFK6o3psucfk6ZtOGcVbd74tJJAoCHGxjFew8~KJO0zB94FtPSbMk-glgX243FgE8W3sPNqIQM6frPSZJtmCCVTA1oaIWw__",
+      imageAfter: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/euuPgHhqdH7MpEXmeeotJJ-img-4_1770757723000_na1fn_YmVmb3JlLWFmdGVyLW1vcmVuYS1hZnRlcg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L2V1dVBnSGhxZEg3TXBFWG1lZW90SkotaW1nLTRfMTc3MDc1NzcyMzAwMF9uYTFmbl9ZbVZtYjNKbExXRm1kR1Z5TFcxdmNtVnVZUzFoWm5SbGNnLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=H6dxjpB1c7uishURGIYu6hjbHSHxECzuSkNIfu8DsQ4VjJHIemqBmr5T12Yn1DjNYmxKc~GJ~V6~tKKW4~tK8BLD~KHyHz-wuitLl8g9IL4N1C4FrfLTTSy2fMEgW8KGeny9MB9zO9nbddiXfBn5a522ftLznrshfW903JFC44GmSfbrMWsuXfMmT6YbckZiCuWS7IAnVNXm7GgOxAsXRkOOFnMJCMcCXx9UHw5rORUhmikkbAKV-4wbAucNaaCz0XPrIcQm0CvrsgBkbAfCVH9JTCRAIlTVi4SHUxTn6VwI5ofY2DgQYh5arhm6Gr7vcin~aAj4GI5Iee7BG8Q4vg__"
     },
     {
       name: "Beatriz Oliveira",
       location: "Belo Horizonte, Brasil",
-      story: "Mulher de 48 anos que quer se sentir sexy novamente",
-      text: "Com 48 anos, pensei que tinha perdido minha chance. Mas descobri que a idade não é desculpa. Perdi 11 kg, meu corpo ficou tonificado e me sinto mais sexy do que nunca. Meus filhos não acreditam que sou eu!",
-      image: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/D4H4naGT8vUJBxpXYyVCaj-img-3_1770756157000_na1fn_dGVzdGltb25pYWwtYmxvbmRlLXdvbWFu.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L0Q0SDRuYUdUOHZVSkJ4cFhZeVZDYWotaW1nLTNfMTc3MDc1NjE1NzAwMF9uYTFmbl9kR1Z6ZEdsdGIyNXBZV3d0WW14dmJtUmxMWGR2YldGdS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=NT-yDIVqA2~DOMYL6RH6Rc7tyo4qcHcblzqxt0t8i6yQpdn-J20m6hAkdqXtuvBl~xM7g7LwAy6DzzhYWaZOTqttQF6l-XQw2eB9iDp5VAf6rJV58kGsAUtpGef~r9TYjMMTDpvUMp8TDUu2oRgOhTUjn1LonDqPWt8JgMSvmvyIaP28gynf9pOCCPIJVqyLXHNmoBAh6Z18x81tP5xtsM6uI176vTa8r7WkD3E~l56oCbGFpXa-EXfPzXgfbGQJ3pdmn2F0gXYY3T0GaSAzSTTTG2JZjJXejLWXbhW2G3QQ7un2XqT5HCAM1zpBwj2VyM4cgvLCiIwqXQYu5066RQ__"
+      story: "Mujer de 48 años que quiere sentirse sexy nuevamente",
+      text: "Con 48 años, pensé que había perdido mi oportunidad. Pero descubrí que la edad no es excusa. Perdí 11 kg, mi cuerpo se tonificó y me siento más sexy que nunca. ¡Mis hijos no creen que sea yo!",
+      imageBefore: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/Ue782jKCvU3axX6snpStsf-img-1_1770757791000_na1fn_YmVmb3JlLWFmdGVyLWJsb25kZS1iZWZvcmU.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L1VlNzgyaktDdlUzYXhYNnNucFN0c2YtaW1nLTFfMTc3MDc1Nzc5MTAwMF9uYTFmbl9ZbVZtYjNKbExXRm1kR1Z5TFdKc2IyNWtaUzFpWldadmNtVS5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=SUaWqDNEQFzLOZAB~7FIQIjxwRaEiSUZ1IYUch5THD4e9rvIeIcqR4b21keYtatMTaccTb77l1FJnaQiwP--YGOmd4M1JYCLM7ZlhsSq9TN4GcLmmA5V1NIg-a9aceL2FMYsRZj6Hs8s4JPJXj4AESXG-ypkhh4rfRszP5O3v3E21diOsJ8HIwZjZNrhcjbSVxp-tXYSfr1gkO6qmmI9dlFiOyWVUK3gujbztTSmt7RixH4xBVLLhXcQcNZvs5SNMJiOF3AxaPFwQIn~-3F1sLikiTmK9nnoVpXdIMjuqxQ0ALUfscCelRjdnbsFJTliW3JjcIwleXNXEdgNSznNtA__",
+      imageAfter: "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/Ue782jKCvU3axX6snpStsf-img-2_1770757777000_na1fn_YmVmb3JlLWFmdGVyLWJsb25kZS1hZnRlcg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvemd5bHJzMnpLTXJUeDRzNHBGNVVJMC9zYW5kYm94L1VlNzgyaktDdlUzYXhYNnNucFN0c2YtaW1nLTJfMTc3MDc1Nzc3NzAwMF9uYTFmbl9ZbVZtYjNKbExXRm1kR1Z5TFdKc2IyNWtaUzFoWm5SbGNnLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=RSi5NE8gWhae4eiK4CHpCxrzA2qG1sDxA6jWS0Dr5lD9LaXxSM6DVUWoJrBI2PLqty2icr32-mMI3n7vJDnU5Oo9dffwtkCYSMes3-i9fdEqdRV83~gA6s5E4JZ9IMETnO1clXgsdVO7AgIBxi5wan0bLq6RJM0d1IqVusg43cp5~LsrFUGKy8H1B2LYuz1dSOYi3jpZGymuHcX2~Ng4VhRZVKWaMjJTlIpMc5MvqIyN0XWLFrru1HNtGP8pkkwJ-qj1aJmE5HKluS~~VyTso08AvIMZVZHlS7Wpm5kHycJgNF5lB-7OgzWLMw-1JOdSn9m~x5UgAMV~Sow1wTRrTA__"
     }
   ];
 
   const bonuses = [
     {
       icon: "💪",
-      title: "Programa de Musculação Caseira",
-      description: "Rotina de exercícios diários de 10-20 minutos. Sem equipamento. Sem desculpas. Resultados garantidos em 4 semanas."
+      title: "Programa de Musculación Casera",
+      description: "Rutina de ejercicios diarios de 10-20 minutos. Sin equipamiento. Sin excusas. Resultados garantizados en 4 semanas."
     },
     {
       icon: "👯",
       title: "Grupo VIP Exclusivo",
-      description: "Comunidade privada com +5000 mulheres. Suporte diário, motivação, receitas compartilhadas e amizades que duram para a vida toda."
+      description: "Comunidad privada con +5000 mujeres. Apoyo diario, motivación, recetas compartidas y amistades que duran toda la vida."
     },
     {
       icon: "🍵",
-      title: "Guia de Chás Termogênicos",
-      description: "Receitas de chás que simulam o efeito do Mounjaro. Acelera metabolismo naturalmente. Receitas deliciosas que você vai querer beber todos os dias."
+      title: "Guía del Mounjaro Natural",
+      description: "Recetas de bebidas termogénicas que simulan el efecto del Mounjaro. Acelera metabolismo naturalmente. Recetas deliciosas que querrás beber todos los días."
     },
     {
       icon: "📊",
-      title: "Planificador de Progresso Semanal",
-      description: "Rastreie seu progresso, meça resultados reais, celebre vitórias pequenas. Psicologia da transformação incluída."
+      title: "Planificador de Progreso Semanal",
+      description: "Rastrea tu progreso, mide resultados reales, celebra pequeñas victorias. Psicología de la transformación incluida."
     },
     {
       icon: "🎁",
-      title: "Acesso ao Grupo de WhatsApp VIP",
-      description: "Suporte direto, dúvidas respondidas em tempo real, motivação diária, desafios semanais com prêmios."
+      title: "Acceso al Grupo de WhatsApp VIP",
+      description: "Apoyo directo, preguntas respondidas en tiempo real, motivación diaria, desafíos semanales con premios."
     },
     {
-      icon: "📚",
-      title: "Guia Completo de Receitas Brasileiras",
-      description: "100+ receitas deliciosas que mantêm você em déficit calórico sem sentir que está fazendo dieta. Comida de verdade."
+      icon: "🥤",
+      title: "Guía de Jugos Detox",
+      description: "Recetas de jugos que desinflamam el cuerpo y regulan los hormonas femeninos. Recetas deliciosas que transforman tu salud desde adentro."
     }
   ];
 
   const faqItems = [
     {
-      question: "Isso é uma dieta restritiva?",
-      answer: "Absolutamente não. A Dieta das Brasileiras é sobre estratégia, não restrição. Você aprende a comer o que gosta com inteligência. Sem culpa. Sem privação."
+      question: "¿Es una dieta restrictiva?",
+      answer: "Absolutamente no. La Dieta de las Brasileñas es sobre estrategia, no restricción. Aprendes a comer lo que te gusta con inteligencia. Sin culpa. Sin privación."
     },
     {
-      question: "Quanto tempo leva para ver resultados?",
-      answer: "Você sente mudanças em 2-3 semanas (mais energia, roupas folgadas). Resultados visíveis em 4-6 semanas. Transformação completa em 12 semanas."
+      question: "¿Cuánto tiempo tarda en ver resultados?",
+      answer: "Sientes cambios en 2-3 semanas (más energía, ropa suelta). Resultados visibles en 4-6 semanas. Transformación completa en 12 semanas."
     },
     {
-      question: "Vou perder minhas curvas?",
-      answer: "Não. O programa foi criado especificamente para manter e realçar suas curvas enquanto você perde gordura. Você fica mais sexy, não mais fina."
+      question: "¿Voy a perder mis curvas?",
+      answer: "No. El programa fue creado específicamente para mantener y realzar tus curvas mientras pierdes grasa. Te ves más sexy, no más delgada."
     },
     {
-      question: "Preciso ir ao ginásio?",
-      answer: "Não é obrigatório. Os exercícios podem ser feitos em casa em 15-20 minutos por dia. Mas se quiser ir ao ginásio, te ensinamos exatamente o que fazer."
+      question: "¿Necesito ir al gimnasio?",
+      answer: "No es obligatorio. Los ejercicios se pueden hacer en casa en 15-20 minutos por día. Pero si quieres ir al gimnasio, te enseñamos exactamente qué hacer."
     },
     {
-      question: "E se eu não tiver tempo?",
-      answer: "O programa foi criado para mulheres ocupadas. Lições de 5-10 minutos, exercícios de 15-20 minutos. Você faz no seu ritmo, quando tiver tempo."
+      question: "¿Y si no tengo tiempo?",
+      answer: "El programa fue creado para mujeres ocupadas. Lecciones de 5-10 minutos, ejercicios de 15-20 minutos. Haces a tu ritmo, cuando tengas tiempo."
     },
     {
-      question: "Qual é a garantia?",
-      answer: "Se não ver resultados em 60 dias, devolvemos 100% do seu dinheiro. Sem perguntas. Sua satisfação é nossa prioridade."
+      question: "¿Cuál es la garantía?",
+      answer: "Si no ves resultados en 60 días, devolvemos el 100% de tu dinero. Sin preguntas. Tu satisfacción es nuestra prioridad."
     }
   ];
 
@@ -100,15 +103,15 @@ export default function Home() {
             <div className="space-y-6 md:space-y-8">
               <div className="space-y-3">
                 <h1 style={{ fontFamily: '"Playfair Display", serif' }} className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
-                  A Dieta das Brasileiras
+                  La Dieta de las Brasileñas
                 </h1>
                 <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-xl md:text-2xl text-primary font-semibold">
-                  Come o que quiser. Mantém suas curvas. Perde peso de verdade.
+                  Come lo que quieras. Mantén tus curvas. Pierde peso de verdad.
                 </p>
               </div>
 
               <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/80 leading-relaxed">
-                Descubra o segredo que as mulheres brasileiras usam para manter glúteos grandes, cintura fina e curvas femininas enquanto perdem peso. Sem dietas extremas. Sem culpa. Sem fracasso.
+                Descubre el secreto que las mujeres brasileñas usan para mantener glúteos grandes, cintura fina y curvas femeninas mientras pierden peso. Sin dietas extremas. Sin culpa. Sin fracaso.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -117,7 +120,7 @@ export default function Home() {
                   className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-base h-14 rounded-lg"
                   onClick={() => document.getElementById("oferta")?.scrollIntoView({ behavior: "smooth" })}
                 >
-                  Quero Acessar Agora
+                  Quiero Acceder Ahora
                 </Button>
                 <Button
                   size="lg"
@@ -125,7 +128,7 @@ export default function Home() {
                   className="border-2 border-primary text-primary hover:bg-primary/5 font-semibold text-base h-14 rounded-lg"
                   onClick={() => document.getElementById("beneficios")?.scrollIntoView({ behavior: "smooth" })}
                 >
-                  Ver Benefícios
+                  Ver Beneficios
                 </Button>
               </div>
 
@@ -133,15 +136,15 @@ export default function Home() {
               <div className="pt-6 space-y-3 border-t border-border">
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-primary" />
-                  <span style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground">+5,000 mulheres transformadas</span>
+                  <span style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground">+5,000 mujeres transformadas</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-primary" />
-                  <span style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground">Média de perda: 12 kg em 12 semanas</span>
+                  <span style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground">Promedio de pérdida: 12 kg en 12 semanas</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-primary" />
-                  <span style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground">97% de satisfação garantida</span>
+                  <span style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground">97% de satisfacción garantizada</span>
                 </div>
               </div>
             </div>
@@ -150,147 +153,82 @@ export default function Home() {
             <div className="relative">
               <img
                 src={heroImage}
-                alt="Mulher brasileira confiante"
+                alt="Mujer brasileña confiada"
                 className="w-full h-auto rounded-2xl shadow-2xl object-cover"
               />
               <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-6 py-3 rounded-lg shadow-lg font-semibold text-sm md:text-base">
-                Comece sua transformação hoje!
+                ¡Comienza tu transformación hoy!
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* PAIN POINTS SECTION */}
-      <section className="py-16 md:py-24 bg-secondary/30">
-        <div className="container">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Você está cansada de...
-            </h2>
-            <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/70 max-w-2xl mx-auto">
-              Ciclos infinitos que não funcionam. Dietas que roubam sua alegria. Promessas vazias.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                title: "Ciclos Yo-Yo Infinitos",
-                description: "Perde 10 kg, recupera 15. É um ciclo que destrói sua confiança e sua saúde mental."
-              },
-              {
-                title: "Culpa e Restrição",
-                description: "Dietas que proíbem tudo. Você sente culpa ao comer. Isso não é vida, é prisão."
-              },
-              {
-                title: "Perder Suas Curvas",
-                description: "Emagrece mas perde o que te faz sentir mulher. Quer estar magra, mas não desejável."
-              },
-              {
-                title: "Falta de Tempo",
-                description: "Vida ocupada. Não pode passar horas no ginásio ou cozinhando receitas complicadas."
-              },
-              {
-                title: "Medo de Fracasso",
-                description: "Já tentou tudo. Por que desta vez seria diferente? O medo te paralisa."
-              },
-              {
-                title: "Pressão Social",
-                description: "Comparação constante. Nunca se sente 'suficientemente boa'. Insegurança permanente."
-              }
-            ].map((pain, idx) => (
-              <div key={idx} className="bg-card rounded-xl p-6 border border-border hover:shadow-lg transition-shadow">
-                <h3 style={{ fontFamily: '"Playfair Display", serif' }} className="font-bold text-lg text-foreground mb-2">{pain.title}</h3>
-                <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-foreground/70 text-sm">{pain.description}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
 
       {/* WHAT IS IT SECTION */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-primary/5">
         <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                O Que é a Dieta das Brasileiras?
-              </h2>
-              <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/70 mb-4 leading-relaxed">
-                É um método de 12 semanas que te ensina o segredo de como as mulheres brasileiras comem o que querem e ainda assim perdem peso mantendo suas curvas.
-              </p>
-              <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/70 mb-4 leading-relaxed">
-                Não é sobre restrição. Não é sobre sofrer. É sobre estratégia inteligente. Você aprende exatamente o que comer, quando comer, como treinar e como manter seu peso para sempre.
-              </p>
-              <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/70 leading-relaxed">
-                A diferença? Você come de verdade. Você desfruta de verdade. E você emagrece de verdade. Sem culpa. Sem fracasso. Sem restrição.
-              </p>
-            </div>
-            <img
-              src={gymImage}
-              alt="Mulher em academia"
-              className="w-full h-auto rounded-2xl shadow-xl"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* BENEFITS SECTION */}
-      <section id="beneficios" className="py-16 md:py-24 bg-primary/5">
-        <div className="container">
-          <div className="text-center mb-12 md:mb-16">
-            <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              O Que Você Recebe
+          <div className="max-w-4xl mx-auto">
+            <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+              La Dieta de las Brasileñas (21 días)
             </h2>
-            <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/70 max-w-2xl mx-auto">
-              Um programa completo que te transforma por dentro e por fora
-            </p>
-          </div>
+            
+            <div className="space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed">
+              <p style={{ fontFamily: '"Poppins", sans-serif' }}>
+                <strong>Cómo las cariocas, las paulistanas y las baianas comen arroz, feijão y un pedacito de chocolate sin que el culito se entere.</strong>
+              </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {[
-              {
-                icon: <Zap className="w-6 h-6" />,
-                title: "Método Comprovado",
-                description: "Sistema de 12 semanas baseado em como as mulheres brasileiras realmente emagrecem sem sacrificar suas curvas."
-              },
-              {
-                icon: <Heart className="w-6 h-6" />,
-                title: "Coma o Que Quiser",
-                description: "Aprenda a comer comidas que ama enquanto perde peso. Nada de contagem obsessiva de calorias."
-              },
-              {
-                icon: <Users className="w-6 h-6" />,
-                title: "Comunidade de Apoio",
-                description: "Junte-se a +5000 mulheres que se entendem. Compartilhe vitórias, desafios e motivação diária."
-              },
-              {
-                icon: <Shield className="w-6 h-6" />,
-                title: "Exercícios em Casa",
-                description: "Rotinas de 15-20 minutos que você faz em casa. Sem ginásio. Sem equipamento caro."
-              },
-              {
-                icon: <Check className="w-6 h-6" />,
-                title: "Menús Personalizados",
-                description: "Receitas deliciosas adaptadas ao seu gosto. Coma o que gosta, perca peso consistentemente."
-              },
-              {
-                icon: <Gift className="w-6 h-6" />,
-                title: "6 Bônus Exclusivos",
-                description: "Programa de musculação, guia de chás termogênicos, grupo VIP e muito mais (valor total: $150)."
-              }
-            ].map((benefit, idx) => (
-              <div key={idx} className="flex gap-4 p-6 bg-card rounded-xl border border-border hover:shadow-lg transition-shadow">
-                <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
-                  {benefit.icon}
+              <p style={{ fontFamily: '"Poppins", sans-serif' }}>
+                Dentro del cuaderno de 21 días encontrarás:
+              </p>
+
+              <div className="space-y-4">
+                <div className="p-4 bg-card rounded-lg border border-border">
+                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="font-semibold mb-2">
+                    El trío brasileño: arroz integral + feijão negro + 1 cucharadita de aceite de coco.
+                  </p>
+                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground/70">
+                    Se come a las 13:00, mantiene la cintura y rellena el glúteo de volumen limpio.
+                  </p>
                 </div>
-                <div>
-                  <h3 style={{ fontFamily: '"Playfair Display", serif' }} className="font-bold text-lg text-foreground mb-2">{benefit.title}</h3>
-                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-foreground/70 text-sm">{benefit.description}</p>
+
+                <div className="p-4 bg-card rounded-lg border border-border">
+                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="font-semibold mb-2">
+                    El "café da tarde": café pequeño + 2 galletas de polvilho a las 16:00.
+                  </p>
+                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground/70">
+                    Corta la subida de insulina de la tarde y evitas el ataque a la bolsa de chips.
+                  </p>
+                </div>
+
+                <div className="p-4 bg-card rounded-lg border border-border">
+                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="font-semibold mb-2">
+                    El plazo de 21 días: el cuerpo necesita exactamente tres semanas para cambiar el chip: de "almacenar" a "usar".
+                  </p>
+                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground/70">
+                    La báscula baja 2-4 kg, el pantalón va más suelto y el bikini queda mejor que nunca.
+                  </p>
+                </div>
+
+                <div className="p-4 bg-card rounded-lg border border-border">
+                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="font-semibold mb-2">
+                    La regla del 80/20: 80% comida de verdade, 20% lo que te apetece.
+                  </p>
+                  <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground/70">
+                    Así puedes aceptar la invitación del fin de semana sin plan culinario de arrepentimiento.
+                  </p>
                 </div>
               </div>
-            ))}
+
+              <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-primary font-semibold">
+                No hay té de perejil, no hay pollo hervido, no hay app de contar calorías.
+              </p>
+              <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-primary font-semibold">
+                Solo el reloj del estómago y el sabor que ya conoces.
+              </p>
+              <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-primary font-semibold italic">
+                ¿Te animas a probar la próxima semana y sentir cómo se afina la cintura sin que el cuerpo lo note como dieta?
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -299,18 +237,31 @@ export default function Home() {
       <section className="py-16 md:py-24">
         <div className="container">
           <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-12 text-center">
-            Histórias Reais de Transformação
+            Historias Reales de Transformación
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, idx) => (
-              <div key={idx} className="p-8 bg-card rounded-xl border border-border hover:shadow-lg transition-shadow">
+              <div key={idx} className="p-6 bg-card rounded-xl border border-border hover:shadow-lg transition-shadow">
                 <div className="mb-4">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="w-full h-64 object-cover rounded-lg mb-4"
-                  />
+                  <div className="flex gap-2 mb-4">
+                    <div className="flex-1">
+                      <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-xs text-foreground/60 mb-1">Antes</p>
+                      <img
+                        src={testimonial.imageBefore}
+                        alt="Antes"
+                        className="w-full h-40 object-cover rounded-lg"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-xs text-foreground/60 mb-1">Después</p>
+                      <img
+                        src={testimonial.imageAfter}
+                        alt="Después"
+                        className="w-full h-40 object-cover rounded-lg"
+                      />
+                    </div>
+                  </div>
                   <h3 style={{ fontFamily: '"Playfair Display", serif' }} className="font-bold text-foreground">{testimonial.name}</h3>
                   <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground/60">{testimonial.location}</p>
                   <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-primary font-semibold mt-1">{testimonial.story}</p>
@@ -331,10 +282,10 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-secondary/30">
         <div className="container">
           <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-center">
-            6 Bônus Exclusivos (Valor: $150)
+            6 Bonificaciones Exclusivas (Valor: $150)
           </h2>
           <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-center text-foreground/70 mb-12 max-w-2xl mx-auto">
-            Você recebe tudo isso HOJE quando se inscrever
+            Recibes todo esto HOY cuando te inscribas
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -354,40 +305,40 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Sua Oferta Especial
+              Tu Oferta Especial
             </h2>
             <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/70">
-              Acesso completo ao programa + 6 bônus exclusivos
+              Acceso completo al programa + 6 bonificaciones exclusivas
             </p>
           </div>
 
           <div className="max-w-2xl mx-auto">
             <div className="p-8 rounded-2xl border-2 border-primary bg-primary/5 shadow-lg">
               <h3 style={{ fontFamily: '"Playfair Display", serif' }} className="font-bold text-2xl text-foreground mb-2 text-center">
-                Acesso Completo
+                Acceso Completo
               </h3>
               <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-foreground/70 text-sm mb-6 text-center">
-                Tudo que você precisa para transformar seu corpo e sua vida
+                Todo lo que necesitas para transformar tu cuerpo y tu vida
               </p>
 
               <div className="mb-8 text-center">
                 <div className="text-5xl font-bold text-primary mb-2">
                   $14
                 </div>
-                <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-foreground/60 text-sm">Pago único • Acesso de por vida</p>
+                <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-foreground/60 text-sm">Pago único • Acceso de por vida</p>
               </div>
 
               <ul className="space-y-3 mb-8">
                 {[
-                  "Acesso de por vida ao programa completo",
-                  "12 semanas de lições em vídeo HD",
-                  "Programa de musculação caseira (10-20 min/dia)",
-                  "Menús personalizados com 100+ receitas",
-                  "Comunidade privada com +5000 mulheres",
-                  "Grupo VIP de WhatsApp com suporte direto",
-                  "Guia de chás termogênicos tipo Mounjaro",
-                  "Planificador de progresso semanal",
-                  "Garantia de 60 dias (100% dinheiro de volta)"
+                  "Acceso de por vida al programa completo",
+                  "12 semanas de lecciones en vídeo HD",
+                  "Programa de musculación casera (10-20 min/día)",
+                  "Menús personalizados con 100+ recetas",
+                  "Comunidad privada con +5000 mujeres",
+                  "Grupo VIP de WhatsApp con apoyo directo",
+                  "Guía del Mounjaro Natural con bebidas termogénicas",
+                  "Planificador de progreso semanal",
+                  "Garantía de 60 días (100% devolución de dinero)"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
@@ -400,11 +351,11 @@ export default function Home() {
                 size="lg"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold h-14 rounded-lg text-base"
               >
-                Quero Acessar Agora - Apenas $14
+                Quiero Acceder Ahora - Solo $14
               </Button>
 
               <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-center text-foreground/60 text-xs mt-4">
-                Acesso instantâneo. Sem cartão de crédito recorrente. Sem surpresas.
+                Acceso instantáneo. Sin tarjeta de crédito recurrente. Sin sorpresas.
               </p>
             </div>
           </div>
@@ -417,13 +368,13 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <Shield className="w-16 h-16 text-primary mx-auto mb-6" />
             <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Garantia de 60 Dias
+              Garantía de 60 Días
             </h2>
             <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/70 mb-6 leading-relaxed">
-              Se em 60 dias você não ver resultados, devolvemos 100% do seu dinheiro. Sem perguntas. Sem complicações.
+              Si en 60 días no ves resultados, devolvemos el 100% de tu dinero. Sin preguntas. Sin complicaciones.
             </p>
             <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg text-foreground/70">
-              Acreditamos tanto neste programa que estamos dispostos a apostar nosso dinheiro nele. Sua satisfação é nossa prioridade número um.
+              Creemos tanto en este programa que estamos dispuestos a apostar nuestro dinero en él. Tu satisfacción es nuestra prioridad número uno.
             </p>
           </div>
         </div>
@@ -433,7 +384,7 @@ export default function Home() {
       <section className="py-16 md:py-24">
         <div className="container">
           <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold text-foreground mb-12 text-center">
-            Perguntas Frequentes
+            Preguntas Frecuentes
           </h2>
 
           <div className="max-w-3xl mx-auto space-y-4">
@@ -457,19 +408,19 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground">
         <div className="container text-center">
           <h2 style={{ fontFamily: '"Playfair Display", serif' }} className="text-3xl md:text-4xl font-bold mb-6">
-            Sua Transformação Começa Agora
+            Tu Transformación Comienza Ahora
           </h2>
           <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-base md:text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            Não espere mais. Cada dia que passa é um dia que você não está vivendo sua melhor vida. Por apenas $14, você tem acesso a tudo que precisa para transformar seu corpo e sua vida.
+            No esperes más. Cada día que pasa es un día que no estás viviendo tu mejor vida. Por solo $14, tienes acceso a todo lo que necesitas para transformar tu cuerpo y tu vida.
           </p>
           <Button
             size="lg"
             className="bg-primary-foreground hover:bg-primary-foreground/90 text-primary font-bold text-lg h-14 rounded-lg px-8"
           >
-            Acessar Agora - Garantia de 60 Dias
+            Acceder Ahora - Garantía de 60 Días
           </Button>
           <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm mt-6 opacity-75">
-            Acesso instantâneo. Sem cartão de crédito recorrente. Sem compromisso de renovação.
+            Acceso instantáneo. Sin tarjeta de crédito recurrente. Sin compromiso de renovación.
           </p>
         </div>
       </section>
@@ -479,27 +430,27 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 style={{ fontFamily: '"Playfair Display", serif' }} className="font-bold text-foreground mb-4">A Dieta das Brasileiras</h3>
-              <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-foreground/60 text-sm">Transformando vidas de mulheres em todo o mundo.</p>
+              <h3 style={{ fontFamily: '"Playfair Display", serif' }} className="font-bold text-foreground mb-4">La Dieta de las Brasileñas</h3>
+              <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-foreground/60 text-sm">Transformando vidas de mujeres en todo el mundo.</p>
             </div>
             <div>
               <h4 style={{ fontFamily: '"Poppins", sans-serif' }} className="font-semibold text-foreground mb-4">Programa</h4>
               <ul style={{ fontFamily: '"Poppins", sans-serif' }} className="space-y-2 text-foreground/60 text-sm">
-                <li><a href="#" className="hover:text-primary">Como Funciona</a></li>
-                <li><a href="#" className="hover:text-primary">Benefícios</a></li>
-                <li><a href="#" className="hover:text-primary">Depoimentos</a></li>
+                <li><a href="#" className="hover:text-primary">Cómo Funciona</a></li>
+                <li><a href="#" className="hover:text-primary">Beneficios</a></li>
+                <li><a href="#" className="hover:text-primary">Testimonios</a></li>
               </ul>
             </div>
             <div>
               <h4 style={{ fontFamily: '"Poppins", sans-serif' }} className="font-semibold text-foreground mb-4">Legal</h4>
               <ul style={{ fontFamily: '"Poppins", sans-serif' }} className="space-y-2 text-foreground/60 text-sm">
-                <li><a href="#" className="hover:text-primary">Termos</a></li>
-                <li><a href="#" className="hover:text-primary">Privacidade</a></li>
-                <li><a href="#" className="hover:text-primary">Contato</a></li>
+                <li><a href="#" className="hover:text-primary">Términos</a></li>
+                <li><a href="#" className="hover:text-primary">Privacidad</a></li>
+                <li><a href="#" className="hover:text-primary">Contacto</a></li>
               </ul>
             </div>
             <div>
-              <h4 style={{ fontFamily: '"Poppins", sans-serif' }} className="font-semibold text-foreground mb-4">Siga-nos</h4>
+              <h4 style={{ fontFamily: '"Poppins", sans-serif' }} className="font-semibold text-foreground mb-4">Síguenos</h4>
               <ul style={{ fontFamily: '"Poppins", sans-serif' }} className="space-y-2 text-foreground/60 text-sm">
                 <li><a href="#" className="hover:text-primary">Instagram</a></li>
                 <li><a href="#" className="hover:text-primary">TikTok</a></li>
@@ -509,7 +460,7 @@ export default function Home() {
           </div>
           <div className="border-t border-border pt-8 text-center">
             <p style={{ fontFamily: '"Poppins", sans-serif' }} className="text-foreground/60 text-sm">
-              © 2026 A Dieta das Brasileiras. Todos os direitos reservados.
+              © 2026 La Dieta de las Brasileñas. Todos los derechos reservados.
             </p>
           </div>
         </div>
