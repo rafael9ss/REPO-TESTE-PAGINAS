@@ -151,12 +151,12 @@ export default function Home() {
               <div key={i} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow flex flex-col h-full">
                 {/* Before/After Images - Stack Vertical on Mobile, Side by Side on Desktop */}
                 <div className="flex flex-col md:flex-row gap-0 w-full flex-shrink-0">
-                  <div className="relative w-full md:w-1/2 h-64 md:h-72">
-                    <img src={t.imageBefore} alt="Antes" className="w-full h-full object-cover" loading="lazy" />
+                  <div className="relative w-full md:w-1/2 h-auto md:h-72">
+                    <img src={t.imageBefore} alt="Antes" className="w-full h-auto object-contain" loading="lazy" />
                     <div className="absolute bottom-2 left-2 bg-red-500 text-white px-3 py-1 rounded text-xs font-bold">ANTES</div>
                   </div>
-                  <div className="relative w-full md:w-1/2 h-64 md:h-72">
-                    <img src={t.imageAfter} alt="Después" className="w-full h-full object-cover" loading="lazy" />
+                  <div className="relative w-full md:w-1/2 h-auto md:h-72">
+                    <img src={t.imageAfter} alt="Después" className="w-full h-auto object-contain" loading="lazy" />
                     <div className="absolute bottom-2 right-2 bg-green-500 text-white px-3 py-1 rounded text-xs font-bold">DESPUÉS</div>
                   </div>
                 </div>
