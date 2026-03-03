@@ -11,15 +11,15 @@ export default function Home() {
       name: "María García",
       location: "Buenos Aires, Argentina",
       story: "Mamá de dos hijos",
-      text: "Perdí 14 kg en 3 meses y mantuve mis curvas. ¡Mi marido no me reconocía!",
+      text: "Después de la gravidez no me reconocía. Traté de todo pero nada funcionaba. Cuando descubrí este método pensé qué tengo que perder. En 4 semanas transformé mi cuerpo de una manera que nunca imaginé posible! Ahora me veo al espejo y veo a la mujer que era. Mi marido no puede creer el cambio.",
       imageBefore: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/ANTES-PriscilaSantos_da380afd.jpg",
       imageAfter: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/DEPOIS-PriscilaSantos_c6495f16.jpg"
     },
     {
       name: "Rosa López",
       location: "Lima, Perú",
-      story: "Ex-obesa, transformación completa",
-      text: "Pesaba 95 kg. Hoy peso 68 kg y me siento una diosa. ¡Sin restricción, sin culpa!",
+      story: "Salió de la depresión",
+      text: "Pesaba 95 kg y estaba deprimida. No me reconocía en el espejo. Pensé que nunca volvería a sentirme hermosa. Pero con este método perdí 30 kg y mi cuerpo se definió de una manera que nunca esperé. Lo mejor: fue mucho menos esfuerzo de lo que imaginaba. Hoy me siento como una diosa, sin culpa, sin restricción. Volví a vivir!",
       imageBefore: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/ANTESFERNANDACOSTA_3b99cbc5.jpg",
       imageAfter: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/DEPPOIS-FERNANDACOSTA_131d17d5.jpg"
     },
@@ -27,7 +27,7 @@ export default function Home() {
       name: "Sofía Martínez",
       location: "Ciudad de México, México",
       story: "Mujer de 48 años",
-      text: "Perdí 11 kg y me siento más sexy que nunca. ¡Mis hijos no creen que sea yo!",
+      text: "A los 48 años pensé que era tarde. Que mi cuerpo ya no respondería. Que los malos hábitos de años no se podían cambiar. Pero en 5 semanas transformé mi cuerpo de una manera que mis amigas no creían. Ahora me siento más sexy que cuando tenía 30. Mis hijos dicen mamá, qué te hiciste? Esto cambió mi vida!",
       imageBefore: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/ANTES-BeatrizOliveira_32a7742e.jpg",
       imageAfter: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/DEPOIS-BeatrizOliveira_351ffd7f.jpg"
     }
