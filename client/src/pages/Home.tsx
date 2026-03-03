@@ -149,31 +149,33 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {testimonials.map((t, i) => (
               <div key={i} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow flex flex-col h-full">
-                {/* Before/After Images - Responsive Layout */}
-                <div className="grid grid-cols-2 md:grid-cols-2 gap-0 h-48 md:h-72 w-full flex-shrink-0">
-                  <div className="relative w-full h-full">
+                {/* Before/After Images - Stack Vertical on Mobile, Side by Side on Desktop */}
+                <div className="flex flex-col md:flex-row gap-0 w-full flex-shrink-0">
+                  <div className="relative w-full md:w-1/2 h-64 md:h-72">
                     <img src={t.imageBefore} alt="Antes" className="w-full h-full object-cover" loading="lazy" />
-                    <div className="absolute bottom-1 left-1 bg-red-500 text-white px-2 py-0.5 rounded text-xs font-bold">ANTES</div>
+                    <div className="absolute bottom-2 left-2 bg-red-500 text-white px-3 py-1 rounded text-xs font-bold">ANTES</div>
                   </div>
-                  <div className="relative w-full h-full">
+                  <div className="relative w-full md:w-1/2 h-64 md:h-72">
                     <img src={t.imageAfter} alt="Después" className="w-full h-full object-cover" loading="lazy" />
-                    <div className="absolute bottom-1 right-1 bg-green-500 text-white px-2 py-0.5 rounded text-xs font-bold">DESPUÉS</div>
+                    <div className="absolute bottom-2 right-2 bg-green-500 text-white px-3 py-1 rounded text-xs font-bold">DESPUÉS</div>
                   </div>
                 </div>
                 
                 {/* Testimonial Text */}
-                <div className="p-4 md:p-6 flex flex-col flex-grow">
-                  <p className="text-xs md:text-sm text-primary font-bold mb-2 uppercase tracking-wide">{t.story}</p>
-                  <p className="text-sm md:text-base font-semibold mb-4 text-foreground flex-grow">{t.text}</p>
-                  <div className="flex items-center justify-between pt-4 border-t border-border/30 mt-auto">
-                    <div>
-                      <p className="font-bold text-sm md:text-base">{t.name}</p>
-                      <p className="text-xs md:text-sm text-foreground/60">{t.location}</p>
-                    </div>
-                    <div className="flex gap-0.5">
-                      {[...Array(5)].map((_, j) => (
-                        <span key={j} className="text-yellow-400 text-base">★</span>
-                      ))}
+                <div className="p-5 md:p-6 flex flex-col flex-grow bg-white">
+                  <p className="text-xs md:text-sm text-primary font-bold mb-3 uppercase tracking-wide">{t.story}</p>
+                  <p className="text-sm md:text-base leading-relaxed text-foreground flex-grow mb-4">{t.text}</p>
+                  <div className="border-t border-border/30 pt-4 mt-auto">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1">
+                        <p className="font-bold text-sm md:text-base">{t.name}</p>
+                        <p className="text-xs md:text-sm text-foreground/60">{t.location}</p>
+                      </div>
+                      <div className="flex gap-0.5 flex-shrink-0">
+                        {[...Array(5)].map((_, j) => (
+                          <span key={j} className="text-yellow-400 text-sm">★</span>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>
