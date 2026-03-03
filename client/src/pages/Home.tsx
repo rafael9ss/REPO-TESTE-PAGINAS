@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Home() {
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
 
-  const heroImage = "https://private-us-east-1.manuscdn.com/sessionFile/zgylrs2zKMrTx4s4pF5UI0/sandbox/3FNxqMAY9aEBRu6Qx58PIR-img-1_1770756210000_na1fn_aGVyby1icmF6aWxpYW4tYmlraW5p.png?x-oss-process=image/resize,w_600,h_600/format,webp/quality,q_75";
+  const heroImage = "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/hero-brazilian-woman-beach-9eQAB7vNJdcRfYGS3pCMqo.webp";
 
   const testimonials = [
     {
@@ -99,12 +99,13 @@ export default function Home() {
             {/* Right: Hero Image */}
             <div className="order-1 md:order-2 flex justify-center">
               <div className="relative w-full max-w-sm">
-                <img 
-                  src={heroImage} 
-                  alt="Mujer brasileña fitness" 
-                  className="w-full h-auto rounded-2xl shadow-2xl object-cover"
-                  loading="lazy"
-                />
+                  <img 
+                    src={heroImage} 
+                    alt="Mujer brasileña fitness" 
+                    className="w-full h-auto rounded-2xl shadow-2xl object-cover"
+                    loading="eager"
+                    onError={(e) => { e.currentTarget.src = 'https://images.unsplash.com/photo-1518611505868-48510c2e022b?w=600&h=600&fit=crop'; }}
+                  />
                 <div className="absolute bottom-4 right-4 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-bold">
                   ¡Comienza hoy!
                 </div>
