@@ -140,7 +140,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-primary" />
-                  <span style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground">Promedio de pérdida: 12 kg en 12 semanas</span>
+                  <span style={{ fontFamily: '"Poppins", sans-serif' }} className="text-sm text-foreground">Promedio de pérdida: 12 kg en 5 semanas</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-5 h-5 text-primary" />
