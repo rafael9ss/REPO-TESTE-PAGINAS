@@ -8,7 +8,7 @@ export default function Home() {
 
   const testimonials = [
     {
-      name: "Priscila Santos",
+      name: "María García",
       location: "Buenos Aires, Argentina",
       story: "Mamá de dos hijos",
       text: "Perdí 14 kg en 3 meses y mantuve mis curvas. ¡Mi marido no me reconocía!",
@@ -16,7 +16,7 @@ export default function Home() {
       imageAfter: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/DEPOIS-PriscilaSantos_c6495f16.jpg"
     },
     {
-      name: "Fernanda Costa",
+      name: "Rosa López",
       location: "Lima, Perú",
       story: "Ex-obesa, transformación completa",
       text: "Pesaba 95 kg. Hoy peso 68 kg y me siento una diosa. ¡Sin restricción, sin culpa!",
@@ -24,7 +24,7 @@ export default function Home() {
       imageAfter: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/DEPPOIS-FERNANDACOSTA_131d17d5.jpg"
     },
     {
-      name: "Beatriz Oliveira",
+      name: "Sofía Martínez",
       location: "Ciudad de México, México",
       story: "Mujer de 48 años",
       text: "Perdí 11 kg y me siento más sexy que nunca. ¡Mis hijos no creen que sea yo!",
@@ -149,10 +149,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {testimonials.map((t, i) => (
               <div key={i} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow flex flex-col h-full">
-                {/* Before/After Images */}
-                <div className="grid grid-cols-2 gap-0 h-64 md:h-72 w-full flex-shrink-0">
-                  <img src={t.imageBefore} alt="Antes" className="w-full h-full object-cover" loading="lazy" />
-                  <img src={t.imageAfter} alt="Después" className="w-full h-full object-cover" loading="lazy" />
+                {/* Before/After Images - Responsive Layout */}
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-0 h-48 md:h-72 w-full flex-shrink-0">
+                  <div className="relative w-full h-full">
+                    <img src={t.imageBefore} alt="Antes" className="w-full h-full object-cover" loading="lazy" />
+                    <div className="absolute bottom-1 left-1 bg-red-500 text-white px-2 py-0.5 rounded text-xs font-bold">ANTES</div>
+                  </div>
+                  <div className="relative w-full h-full">
+                    <img src={t.imageAfter} alt="Después" className="w-full h-full object-cover" loading="lazy" />
+                    <div className="absolute bottom-1 right-1 bg-green-500 text-white px-2 py-0.5 rounded text-xs font-bold">DESPUÉS</div>
+                  </div>
                 </div>
                 
                 {/* Testimonial Text */}
