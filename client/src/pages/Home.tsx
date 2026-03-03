@@ -148,25 +148,25 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {testimonials.map((t, i) => (
-              <div key={i} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <div key={i} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow flex flex-col h-full">
                 {/* Before/After Images */}
-                <div className="grid grid-cols-2 gap-0 h-64 md:h-72">
+                <div className="grid grid-cols-2 gap-0 h-64 md:h-72 w-full flex-shrink-0">
                   <img src={t.imageBefore} alt="Antes" className="w-full h-full object-cover" loading="lazy" />
                   <img src={t.imageAfter} alt="Después" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 
                 {/* Testimonial Text */}
-                <div className="p-4 md:p-6">
-                  <p className="text-xs md:text-sm text-primary font-bold mb-2">{t.story}</p>
-                  <p className="text-sm md:text-base font-semibold mb-3 text-foreground">{t.text}</p>
-                  <div className="flex items-center justify-between">
+                <div className="p-4 md:p-6 flex flex-col flex-grow">
+                  <p className="text-xs md:text-sm text-primary font-bold mb-2 uppercase tracking-wide">{t.story}</p>
+                  <p className="text-sm md:text-base font-semibold mb-4 text-foreground flex-grow">{t.text}</p>
+                  <div className="flex items-center justify-between pt-4 border-t border-border/30 mt-auto">
                     <div>
                       <p className="font-bold text-sm md:text-base">{t.name}</p>
                       <p className="text-xs md:text-sm text-foreground/60">{t.location}</p>
                     </div>
-                    <div className="flex gap-1">
+                    <div className="flex gap-0.5">
                       {[...Array(5)].map((_, j) => (
-                        <span key={j} className="text-yellow-400 text-lg">★</span>
+                        <span key={j} className="text-yellow-400 text-base">★</span>
                       ))}
                     </div>
                   </div>
