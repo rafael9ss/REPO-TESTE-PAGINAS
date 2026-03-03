@@ -9,7 +9,7 @@ export default function Home() {
   const testimonials = [
     {
       name: "Priscila Santos",
-      location: "São Paulo, Brasil",
+      location: "Buenos Aires, Argentina",
       story: "Mamá de dos hijos",
       text: "Después de ser mamá, pensé que nunca volvería a tener mi cuerpo. Descubrí que no necesito dietas extremas, solo estrategia. Perdí 14 kg en 3 meses y mantuve mis curvas. ¡Mi marido no me reconocía!",
       imageBefore: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/ANTES-PriscilaSantos_da380afd.jpg",
@@ -17,7 +17,7 @@ export default function Home() {
     },
     {
       name: "Fernanda Costa",
-      location: "Rio de Janeiro, Brasil",
+      location: "Lima, Perú",
       story: "Ex-obesa, transformación completa",
       text: "Pesaba 95 kg y pensé que nunca saldría de ese ciclo. La dieta de las brasileñas me mostró que puedo comer lo que me gusta con inteligencia. Hoy peso 68 kg y me siento una diosa. ¡Sin restricción, sin culpa!",
       imageBefore: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/ANTESFERNANDACOSTA_3b99cbc5.jpg",
@@ -25,7 +25,7 @@ export default function Home() {
     },
     {
       name: "Beatriz Oliveira",
-      location: "Belo Horizonte, Brasil",
+      location: "Ciudad de México, México",
       story: "Mujer de 48 años que quiere sentirse sexy nuevamente",
       text: "Con 48 años, pensé que había perdido mi oportunidad. Pero descubrí que la edad no es excusa. Perdí 11 kg, mi cuerpo se tonificó y me siento más sexy que nunca. ¡Mis hijos no creen que sea yo!",
       imageBefore: "https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/ANTES-BeatrizOliveira_32a7742e.jpg",
