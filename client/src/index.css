@@ -42,90 +42,73 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Custom brand tokens */
+  --color-gold: #D4AF37;
+  --color-gold-light: #E8C84A;
+  --color-gold-dark: #B8960E;
+  --color-emerald: #0D7C3D;
+  --color-emerald-light: #10A34F;
+  --color-emerald-dark: #095C2C;
 }
 
 :root {
-  --primary: oklch(0.65 0.22 15);
-  --primary-foreground: oklch(1 0 0);
-  --sidebar-primary: oklch(0.65 0.22 15);
-  --sidebar-primary-foreground: oklch(1 0 0);
-  --chart-1: oklch(0.75 0.18 20);
-  --chart-2: oklch(0.65 0.22 15);
-  --chart-3: oklch(0.55 0.25 10);
-  --chart-4: oklch(0.72 0.15 30);
-  --chart-5: oklch(0.68 0.20 25);
-  --radius: 0.65rem;
-  --background: oklch(0.98 0.001 0);
-  --foreground: oklch(0.25 0.01 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.25 0.01 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.25 0.01 0);
-  --secondary: oklch(0.95 0.01 50);
-  --secondary-foreground: oklch(0.3 0.01 0);
-  --muted: oklch(0.92 0.005 0);
-  --muted-foreground: oklch(0.5 0.01 0);
-  --accent: oklch(0.75 0.18 20);
-  --accent-foreground: oklch(1 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.9 0.002 0);
-  --input: oklch(0.95 0.002 0);
-  --ring: oklch(0.65 0.22 15);
-  --sidebar: oklch(1 0 0);
-  --sidebar-foreground: oklch(0.25 0.01 0);
-  --sidebar-accent: oklch(0.75 0.18 20);
-  --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(0.9 0.002 0);
-  --sidebar-ring: oklch(0.65 0.22 15);
-}
-
-.dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  --primary: #0D7C3D;
+  --primary-foreground: #FFFFFF;
+  --sidebar-primary: #0D7C3D;
+  --sidebar-primary-foreground: #FFFFFF;
+  --chart-1: #10A34F;
+  --chart-2: #0D7C3D;
+  --chart-3: #095C2C;
+  --chart-4: #D4AF37;
+  --chart-5: #E8C84A;
+  --radius: 0.25rem;
+  --background: #0A0A0A;
+  --foreground: #F0EDE6;
+  --card: #141414;
+  --card-foreground: #F0EDE6;
+  --popover: #141414;
+  --popover-foreground: #F0EDE6;
+  --secondary: #1A1A1A;
+  --secondary-foreground: #E0DCD4;
+  --muted: #1E1E1E;
+  --muted-foreground: #8A8578;
+  --accent: #D4AF37;
+  --accent-foreground: #0A0A0A;
+  --destructive: #DC2626;
+  --destructive-foreground: #FFFFFF;
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.06);
+  --ring: #0D7C3D;
+  --sidebar: #141414;
+  --sidebar-foreground: #F0EDE6;
+  --sidebar-accent: #1A1A1A;
+  --sidebar-accent-foreground: #F0EDE6;
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-ring: #0D7C3D;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: "Playfair Display", serif;
   }
+
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
   [type="button"]:not(:disabled),
@@ -139,27 +122,97 @@
   }
 }
 
+/* Grain texture overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
 
+/* Keyframe animations */
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(13, 124, 61, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 40px rgba(13, 124, 61, 0.6), 0 0 60px rgba(13, 124, 61, 0.2);
+  }
+}
+
+@keyframes gold-pulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.5), 0 0 50px rgba(212, 175, 55, 0.15);
+  }
+}
+
+@keyframes count-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @layer components {
-  /**
-   * Custom container utility that centers content and adds responsive padding.
-   *
-   * This overrides Tailwind's default container behavior to:
-   * - Auto-center content (mx-auto)
-   * - Add responsive horizontal padding
-   * - Set max-width for large screens
-   *
-   * Usage: <div className="container">...</div>
-   *
-   * For custom widths, use max-w-* utilities directly:
-   * <div className="max-w-6xl mx-auto px-4">...</div>
-   */
   .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem; /* 16px - mobile padding */
+    padding-left: 1rem;
     padding-right: 1rem;
   }
 
@@ -170,16 +223,145 @@
 
   @media (min-width: 640px) {
     .container {
-      padding-left: 1.5rem; /* 24px - tablet padding */
+      padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
   }
 
   @media (min-width: 1024px) {
     .container {
-      padding-left: 2rem; /* 32px - desktop padding */
+      padding-left: 2rem;
       padding-right: 2rem;
-      max-width: 1280px; /* Standard content width */
+      max-width: 1280px;
     }
+  }
+
+  /* Premium text gradient */
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #D4AF37 0%, #E8C84A 50%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-emerald {
+    background: linear-gradient(135deg, #0D7C3D 0%, #10A34F 50%, #0D7C3D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* CTA shimmer effect */
+  .cta-shimmer {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0D7C3D 0%, #10A34F 100%);
+  }
+
+  .cta-shimmer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.15) 50%,
+        transparent 100%);
+    background-size: 200% 100%;
+    animation: shimmer 3s ease-in-out infinite;
+  }
+
+  /* Card premium style */
+  .card-premium {
+    background: linear-gradient(180deg, #141414 0%, #0F0F0F 100%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card-premium:hover {
+    border-color: rgba(13, 124, 61, 0.3);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Gold badge */
+  .badge-gold {
+    background: linear-gradient(135deg, #D4AF37 0%, #E8C84A 50%, #B8960E 100%);
+    color: #0A0A0A;
+    font-weight: 700;
+    animation: gold-pulse 3s ease-in-out infinite;
+  }
+
+  /* Section divider */
+  .section-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, rgba(212, 175, 55, 0.3) 50%, transparent 100%);
+  }
+
+  /* Floating animation */
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  /* Pulse glow on CTAs */
+  .animate-pulse-glow {
+    animation: pulse-glow 2.5s ease-in-out infinite;
+  }
+
+  /* Hero overlay gradient */
+  .hero-overlay {
+    background: linear-gradient(180deg,
+        rgba(10, 10, 10, 0.85) 0%,
+        rgba(10, 10, 10, 0.7) 40%,
+        rgba(10, 10, 10, 0.9) 100%);
+  }
+
+  /* Testimonial card */
+  .testimonial-card {
+    background: linear-gradient(180deg, #161616 0%, #111111 100%);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+  }
+
+  /* Before/After labels */
+  .label-antes {
+    background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
+    letter-spacing: 0.15em;
+  }
+
+  .label-despues {
+    background: linear-gradient(135deg, #0D7C3D 0%, #059669 100%);
+    letter-spacing: 0.15em;
+  }
+
+  /* Strikethrough price */
+  .price-old {
+    position: relative;
+    color: #8A8578;
+  }
+
+  .price-old::after {
+    content: "";
+    position: absolute;
+    left: -4px;
+    right: -4px;
+    top: 50%;
+    height: 2px;
+    background: #DC2626;
+    transform: rotate(-5deg);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
