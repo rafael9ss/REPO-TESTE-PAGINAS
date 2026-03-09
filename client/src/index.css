@@ -352,6 +352,47 @@ body::before {
     background: #DC2626;
     transform: rotate(-5deg);
   }
+
+  /* Enemy box — Mounjaro/Ozempic alert */
+  .enemy-box {
+    background: linear-gradient(180deg, rgba(170, 42, 24, 0.08) 0%, rgba(170, 42, 24, 0.03) 100%);
+    border: 1px solid rgba(255, 68, 68, 0.2);
+  }
+
+  /* Warning box — critical alert before method */
+  .warning-box {
+    background: linear-gradient(180deg, rgba(170, 42, 24, 0.06) 0%, rgba(170, 42, 24, 0.02) 100%);
+    border: 1px solid rgba(255, 68, 68, 0.15);
+    border-left: 3px solid #ff4444;
+  }
+
+  /* Comparison cards */
+  .comparison-card {
+    background: linear-gradient(180deg, #141414 0%, #0F0F0F 100%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .comparison-card--red {
+    border-color: rgba(255, 68, 68, 0.2);
+    background: linear-gradient(180deg, rgba(170, 42, 24, 0.06) 0%, #0F0F0F 100%);
+  }
+
+  .comparison-card--gray {
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .comparison-card--green {
+    border-color: rgba(13, 124, 61, 0.3);
+    background: linear-gradient(180deg, rgba(13, 124, 61, 0.08) 0%, #0F0F0F 100%);
+    box-shadow: 0 0 30px rgba(13, 124, 61, 0.1);
+  }
+
+  /* Guarantee box inside offer */
+  .guarantee-box {
+    background: linear-gradient(180deg, rgba(13, 124, 61, 0.08) 0%, rgba(13, 124, 61, 0.03) 100%);
+    border: 1px solid rgba(13, 124, 61, 0.2);
+  }
 }
 
 /* Reduced motion */

@@ -1,4 +1,4 @@
-import { Check, Shield, ChevronDown, Star, Award, Clock, Users, Flame, ArrowRight, BadgeCheck, Lock, Sparkles } from "lucide-react";
+import { Check, Shield, ChevronDown, Star, Award, Clock, Users, Flame, ArrowRight, BadgeCheck, Lock, Sparkles, AlertTriangle, Syringe, X } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 
@@ -78,39 +78,43 @@ export default function Home() {
   ];
 
   const bonuses = [
-    { icon: <Flame className="w-7 h-7" />, title: "Musculación Casera", desc: "10-20 min/día. Sin equipamiento.", num: "01" },
-    { icon: <Users className="w-7 h-7" />, title: "Grupo VIP", desc: "+5000 mujeres. Apoyo diario.", num: "02" },
-    { icon: <Sparkles className="w-7 h-7" />, title: "Mounjaro Natural", desc: "Bebidas termogénicas efectivas.", num: "03" },
-    { icon: <Star className="w-7 h-7" />, title: "Planificador", desc: "Rastrea tu progreso semanal.", num: "04" },
-    { icon: <BadgeCheck className="w-7 h-7" />, title: "WhatsApp VIP", desc: "Apoyo en tiempo real.", num: "05" },
-    { icon: <Award className="w-7 h-7" />, title: "Jugos Detox", desc: "Regula hormonas femeninas.", num: "06" }
+    { icon: <Flame className="w-7 h-7" />, title: "Musculación Casera", desc: "10-20 min/día. Sin equipamiento. Tonifica glúteos, piernas y abdomen desde tu sala.", num: "01", value: "$47" },
+    { icon: <Users className="w-7 h-7" />, title: "Grupo VIP", desc: "+5000 mujeres. Apoyo diario. Motivación real de mujeres que están en el mismo camino.", num: "02", value: "$37" },
+    { icon: <Sparkles className="w-7 h-7" />, title: "Mounjaro Natural", desc: "Las bebidas termogénicas que potencian el Efecto Mounjaro Natural. Con la misma lógica de combinación exacta que el protocolo principal — pero en versión líquida, rápida y deliciosa.", num: "03", value: "$27" },
+    { icon: <Star className="w-7 h-7" />, title: "Planificador", desc: "Rastrea tu progreso semanal. Visualiza cada avance y mantén el foco en tu transformación.", num: "04", value: "$17" },
+    { icon: <BadgeCheck className="w-7 h-7" />, title: "WhatsApp VIP", desc: "Apoyo en tiempo real. Respuestas directas cuando más lo necesitas.", num: "05", value: "$27" },
+    { icon: <Award className="w-7 h-7" />, title: "Jugos Detox", desc: "Regula hormonas femeninas. Recetas que aceleran la desinflamación y potencian tus curvas naturales.", num: "06", value: "$17" }
   ];
 
   const faqItems = [
-    { q: "¿Es restrictiva?", a: "No. Es estrategia, no restricción. Come lo que quieras con inteligencia." },
-    { q: "¿Cuándo veo resultados?", a: "Cambios en 2-3 semanas. Resultados visibles en 4-6 semanas." },
-    { q: "¿Pierdo mis curvas?", a: "No. Mantienes y realzas tus curvas mientras pierdes grasa." },
-    { q: "¿Necesito gimnasio?", a: "No. Ejercicios en casa de 15-20 minutos. Opcional ir al gym." },
-    { q: "¿Sin tiempo?", a: "Lecciones de 5-10 min. Ejercicios de 15-20 min. A tu ritmo." },
-    { q: "¿Garantía?", a: "60 días dinero de vuelta. 100% garantizado. Sin preguntas." }
+    { q: "¿Es restrictiva?", a: "No. Es estrategia, no restricción. Come lo que quieras con inteligencia. El Efecto Mounjaro Natural se activa con la combinación exacta de alimentos — no con privación." },
+    { q: "¿Cuándo veo resultados?", a: "Cambios en 2-3 semanas. Resultados visibles en 4-6 semanas. El protocolo de 21 días reprograma tu señal de saciedad natural para que tu cuerpo queme grasa y preserve curvas." },
+    { q: "¿Pierdo mis curvas?", a: "No. A diferencia de las inyecciones sintéticas que funden todo por igual, el Efecto Mounjaro Natural preserva músculo y curvas mientras elimina grasa visceral. Cintura fina + curvas definidas." },
+    { q: "¿Necesito gimnasio?", a: "No. Ejercicios en casa de 15-20 minutos. Opcional ir al gym. El bônus de Musculación Casera complementa el protocolo perfecto." },
+    { q: "¿Sin tiempo?", a: "Lecciones de 5-10 min. Ejercicios de 15-20 min. A tu ritmo. El mapa está diseñado para la vida real de una mujer ocupada." },
+    { q: "¿Garantía?", a: "60 días dinero de vuelta. 100% garantizado. Sin preguntas. Nosotras asumimos todo el riesgo." }
   ];
 
   const methodSteps = [
     {
       title: "El trío brasileño",
-      text: "Arroz integral + feijão negro + 1 cucharadita de aceite de coco. Se come a las 13:00, mantiene la cintura y rellena el glúteo de volumen limpio."
+      text: "Arroz integral + feijão negro + 1 cucharadita de aceite de coco. Se come a las 13:00, mantiene la cintura y rellena el glúteo de volumen limpio.",
+      piece: "Esta es la Peça 1 del mapa — la combinación exacta. El guía revela las cantidades precisas."
     },
     {
       title: "El \"café da tarde\"",
-      text: "Café pequeño + 2 galletas de polvilho a las 16:00. Corta la subida de insulina de la tarde y evitas el ataque a la bolsa de chips."
+      text: "Café pequeño + 2 galletas de polvilho a las 16:00. Corta la subida de insulina de la tarde y evitas el ataque a la bolsa de chips.",
+      piece: "Esta es la Peça 2 del mapa — la cantidad precisa. El guía revela los gramos exactos que activan la señal de saciedad natural."
     },
     {
       title: "El plazo de 21 días",
-      text: "El cuerpo necesita exactamente tres semanas para cambiar el chip: de \"almacenar\" a \"usar\". La báscula baja 2-4 kg, el pantalón va más suelto."
+      text: "El cuerpo necesita exactamente tres semanas para cambiar el chip: de \"almacenar\" a \"usar\". La báscula baja 2-4 kg, el pantalón va más suelto.",
+      piece: "Esta es la Peça 3 del mapa — el secreto de preparación tradicional. El guía revela el paso que multiplica por 3x el amido resistente activo."
     },
     {
       title: "La regla del 80/20",
-      text: "80% comida de verdade, 20% lo que te apetece. Así puedes aceptar la invitación del fin de semana sin plan culinario de arrepentimiento."
+      text: "80% comida de verdade, 20% lo que te apetece. Así puedes aceptar la invitación del fin de semana sin plan culinario de arrepentimiento.",
+      piece: "Las 3 peças juntas activan el Efecto Mounjaro Natural. Sin las tres, no funciona. El mapa completo está en el guía."
     }
   ];
 
@@ -150,7 +154,7 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-4 py-2 mb-6 md:mb-8">
               <BadgeCheck className="w-4 h-4 text-emerald" />
               <span className="text-xs md:text-sm font-medium text-foreground/80 tracking-wide uppercase">
-                +5,000 mujeres ya transformadas
+                +5,000 mujeres ya activaron el Efecto Mounjaro Natural
               </span>
             </div>
           </motion.div>
@@ -162,39 +166,62 @@ export default function Home() {
             className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-4 md:mb-6 leading-[0.95] tracking-tight"
             style={{ fontFamily: '"Playfair Display", serif' }}
           >
-            La Dieta de las{" "}
-            <span className="text-gradient-gold">Brasileñas</span>
+            Comen carbohidratos{" "}
+            <span className="text-gradient-gold">todos los días</span>
+            <br />
+            <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light italic text-foreground/70" style={{ fontFamily: '"Playfair Display", serif' }}>
+              ...y nunca pierden las curvas. ¿Por qué?
+            </span>
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="text-base sm:text-lg md:text-xl lg:text-2xl text-foreground/70 max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed font-light"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-foreground/70 max-w-2xl mx-auto mb-4 md:mb-5 leading-relaxed font-light"
           >
-            Come lo que quieras. Mantén tus curvas. Pierde peso de verdad.
+            Las brasileñas comen tapioca, açaí, feijão y guaraná todos los días.
+            La ciencia descubrió que esa combinación cultural activa en el intestino <strong className="text-foreground/90">el mismo efecto hormonal que las inyecciones de Mounjaro</strong> — pero de forma 100% natural.
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.45, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="text-sm sm:text-base md:text-lg text-foreground/60 max-w-xl mx-auto mb-8 md:mb-10 leading-relaxed"
+            className="text-sm sm:text-base md:text-lg text-gold/90 max-w-xl mx-auto mb-8 md:mb-10 leading-relaxed font-medium"
           >
-            Descubre cómo las mujeres brasileñas mantienen glúteos grandes, cintura fina y curvas femeninas sin dietas extremas, sin culpa, sin fracaso.
+            Cintura fina + curvas definidas. Sin agujas. Sin receta. Sin $500 al mes.
+            <br />
+            <span className="text-foreground/50 font-normal">Pero solo si sabes la combinación exacta.</span>
           </motion.p>
+
+          {/* CTA Button */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.55, ease: [0.25, 0.46, 0.45, 0.94] }}
+            className="mb-8"
+          >
+            <button
+              onClick={scrollToOffer}
+              className="w-full sm:w-auto cta-shimmer text-white px-10 md:px-12 py-5 rounded-sm font-black text-lg md:text-xl hover:brightness-110 transition-all active:scale-[0.97] animate-pulse-glow inline-flex items-center justify-center gap-3"
+            >
+              Quiero activar el Efecto Mounjaro hoy
+              <ArrowRight className="w-5 h-5" />
+            </button>
+          </motion.div>
 
           {/* Bullet points */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
+            transition={{ duration: 0.7, delay: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
             className="flex flex-col gap-3 items-center max-w-md mx-auto"
           >
             {[
-              "+5,000 mujeres transformadas",
+              "+5,000 mujeres ya activaron el mapa",
               "Promedio: Perder entre 1 y 3 kg por semana",
-              "97% de satisfacción garantizada por nuestras alumnas"
+              "97% de satisfacción · 60 días de garantía"
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-sm px-4 py-2.5 w-full">
                 <Check className="w-4 h-4 text-emerald flex-shrink-0" />
@@ -255,18 +282,18 @@ export default function Home() {
               ¿Te Sientes <span className="text-gradient-gold">Identificada</span>?
             </h2>
             <p className="text-center text-muted-foreground max-w-xl mx-auto mb-12">
-              Miles de mujeres como tú enfrentan estos mismos desafíos todos los días.
+              No eres tú. No es falta de voluntad. Es que nadie te enseñó la combinación correcta.
             </p>
           </SectionReveal>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
             {[
-              { text: "Ciclos yo-yo: pierdes, recuperas, frustración", icon: "🔄" },
-              { text: "Presión social: comparación constante", icon: "📱" },
-              { text: "Culpa por comer: no puedes disfrutar", icon: "😔" },
-              { text: "Miedo al fracaso: 'esta vez será diferente'", icon: "😰" },
-              { text: "Sin tiempo: vida ocupada, cuerpo descuidado", icon: "⏰" },
-              { text: "Comida emocional: estrés = ataque a la nevera", icon: "🍫" }
+              { text: "Ciclos yo-yo: pierdes 3 kg, recuperas 5. La báscula se ríe de ti cada lunes.", icon: "🔄" },
+              { text: "Presión social: ves los cuerpos en Instagram y sientes que algo está mal contigo.", icon: "📱" },
+              { text: "Culpa por comer: cada bocado viene con un juicio. No puedes disfrutar ni un postre sin el peso de la culpa.", icon: "😔" },
+              { text: "Miedo al fracaso: 'esta vez será diferente'... pero en el fondo ya no crees.", icon: "😰" },
+              { text: "Sin tiempo: entre el trabajo, los hijos y la casa, tu cuerpo siempre queda al final de la lista.", icon: "⏰" },
+              { text: "Comida emocional: estrés, tristeza, ansiedad = ataque directo a la nevera. Y después, más culpa.", icon: "🍫" }
             ].map((pain, i) => (
               <SectionReveal key={i} delay={i * 0.08}>
                 <div className="card-premium p-4 md:p-5 rounded-sm flex items-start gap-4 group">
@@ -278,6 +305,47 @@ export default function Home() {
               </SectionReveal>
             ))}
           </div>
+
+          {/* ═══ ENEMY BOX — Mounjaro/Ozempic como falsa solução ═══ */}
+          <SectionReveal delay={0.5}>
+            <div className="enemy-box mt-10 p-6 md:p-8 rounded-sm">
+              <div className="flex items-center gap-3 mb-5">
+                <AlertTriangle className="w-6 h-6 text-[#ff4444] flex-shrink-0" />
+                <h3 className="text-lg md:text-xl font-bold text-[#ff4444]" style={{ fontFamily: '"Playfair Display", serif' }}>
+                  "¿Y las inyecciones de Mounjaro y Ozempic?"
+                </h3>
+              </div>
+              <p className="text-foreground/60 text-sm mb-5">
+                Parece la solución rápida. Pero mira lo que no te cuentan:
+              </p>
+              <div className="space-y-3">
+                {[
+                  "Más de $500/mes para siempre — el peso vuelve al parar la aguja",
+                  "\"Cara de Ozempic\": piel flácida, arrugas prematuras, cara envejecida",
+                  "Pierdes el glúteo, caderas y muslos — el cuerpo \"recto\" que ninguna latina quiere",
+                  "Náuseas, vómitos y fatiga desde la primera dosis",
+                  "Rebote brutal: recuperas todo el doble al parar"
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <X className="w-4 h-4 text-[#ff4444] flex-shrink-0 mt-0.5" />
+                    <p className="text-sm text-foreground/70">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </SectionReveal>
+
+          {/* ═══ BRIDGE PARAGRAPH ═══ */}
+          <SectionReveal delay={0.6}>
+            <div className="mt-8 text-center max-w-2xl mx-auto">
+              <p className="text-lg md:text-xl text-foreground/80 leading-relaxed font-medium" style={{ fontFamily: '"Playfair Display", serif' }}>
+                ¿Y si tu cuerpo pudiera activar <span className="text-gradient-gold">ese mismo efecto</span> de forma natural, desde tu cocina, con ingredientes que ya conoces?
+              </p>
+              <p className="text-sm text-foreground/50 mt-3">
+                Sin agujas. Sin receta médica. Sin $500 al mes. Solo la combinación exacta que las brasileñas conocen de madre a hija.
+              </p>
+            </div>
+          </SectionReveal>
         </div>
       </section>
 
@@ -289,10 +357,10 @@ export default function Home() {
           <SectionReveal>
             <p className="text-xs md:text-sm text-gold uppercase tracking-[0.2em] font-semibold mb-3 text-center">Resultados reales</p>
             <h2 className="text-3xl md:text-5xl font-black text-center mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
-              Historias de <span className="text-gradient-gold">Transformación</span>
+              Mujeres que ya activaron <span className="text-gradient-gold">el mapa</span>
             </h2>
             <p className="text-center text-muted-foreground max-w-xl mx-auto mb-12">
-              Mujeres reales. Resultados reales. Sin filtro, sin mentiras.
+              Ninguna hizo dieta de restricción. Todas aprendieron la combinación exacta.
             </p>
           </SectionReveal>
 
@@ -352,12 +420,27 @@ export default function Home() {
           <SectionReveal>
             <p className="text-xs md:text-sm text-gold uppercase tracking-[0.2em] font-semibold mb-3 text-center">El método</p>
             <h2 className="text-3xl md:text-5xl font-black text-center mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
-              La Dieta de las Brasileñas{" "}
-              <span className="text-gradient-gold">(21 días)</span>
+              El mapa en acción:{" "}
+              <span className="text-gradient-gold">un día normal en Brasil</span>
             </h2>
-            <p className="text-center text-muted-foreground max-w-xl mx-auto mb-12">
+            <p className="text-center text-muted-foreground max-w-xl mx-auto mb-10">
               Cómo las cariocas, paulistanas y baianas comen arroz, feijão y un pedacito de chocolate sin que el culito se entere.
             </p>
+          </SectionReveal>
+
+          {/* ═══ WARNING BOX ═══ */}
+          <SectionReveal delay={0.1}>
+            <div className="warning-box p-5 md:p-6 rounded-sm mb-10">
+              <div className="flex items-start gap-3">
+                <AlertTriangle className="w-5 h-5 text-[#ff4444] flex-shrink-0 mt-0.5" />
+                <div>
+                  <h4 className="font-bold text-[#ff4444] text-sm md:text-base mb-2">⚠️ Antes de intentarlo sola — lee esto</h4>
+                  <p className="text-sm text-foreground/70 leading-relaxed">
+                    No intentes replicar estas combinaciones por tu cuenta sin el protocolo completo. Comer estos ingredientes sin la proporción exacta y el secreto de preparación tradicional puede generar el efecto contrario: pico de insulina, inflamación y más peso. <strong className="text-foreground/90">El mapa completo está en el guía.</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
           </SectionReveal>
 
           {/* Timeline */}
@@ -375,7 +458,8 @@ export default function Home() {
                     <div className="card-premium p-5 md:p-6 rounded-sm">
                       <p className="text-xs text-gold uppercase tracking-widest font-semibold mb-2">Paso {i + 1}</p>
                       <h3 className="font-bold text-lg md:text-xl mb-2" style={{ fontFamily: '"Playfair Display", serif' }}>{step.title}</h3>
-                      <p className="text-sm md:text-base text-foreground/70 leading-relaxed">{step.text}</p>
+                      <p className="text-sm md:text-base text-foreground/70 leading-relaxed mb-3">{step.text}</p>
+                      <p className="text-xs text-gold/80 italic border-t border-white/5 pt-3 mt-2">{step.piece}</p>
                     </div>
                   </div>
                 </SectionReveal>
@@ -400,9 +484,13 @@ export default function Home() {
             <p className="text-xs md:text-sm text-gold uppercase tracking-[0.2em] font-semibold mb-3 text-center">Incluido gratis</p>
             <h2 className="text-3xl md:text-5xl font-black text-center mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
               Acceso Vitalicio + <span className="text-gradient-gold">6 Bônus</span>
+              <br />
+              <span className="text-lg md:text-2xl font-light text-foreground/60" style={{ fontFamily: '"Poppins", sans-serif' }}>
+                para acelerar tu resultado
+              </span>
             </h2>
             <p className="text-center text-muted-foreground max-w-xl mx-auto mb-12">
-              Valor total: <span className="price-old inline-block">$147</span> — Hoy todo por <span className="text-gold font-bold">$14</span>
+              Valor total: <span className="price-old inline-block">$172</span> — Hoy todo por <span className="text-gold font-bold">$14</span>
             </p>
           </SectionReveal>
 
@@ -417,7 +505,8 @@ export default function Home() {
                     {b.icon}
                   </div>
                   <p className="font-bold text-base md:text-lg mb-1">{b.title}</p>
-                  <p className="text-sm text-muted-foreground">{b.desc}</p>
+                  <p className="text-sm text-muted-foreground mb-3">{b.desc}</p>
+                  <p className="text-xs text-gold/70 font-medium">(Valor: {b.value} — incluido gratis hoy)</p>
                 </div>
               </SectionReveal>
             ))}
@@ -430,7 +519,51 @@ export default function Home() {
       {/* ═══════════════════ OFFER / PRICING ═══════════════════ */}
       <section id="oferta" className="py-14 md:py-24">
         <div className="container px-4 md:px-6">
+
+          {/* ═══ 3 COMPARISON CARDS ═══ */}
           <SectionReveal>
+            <p className="text-xs md:text-sm text-gold uppercase tracking-[0.2em] font-semibold mb-3 text-center">Compara y decide</p>
+            <h2 className="text-3xl md:text-5xl font-black text-center mb-10" style={{ fontFamily: '"Playfair Display", serif' }}>
+              La misma señal hormonal.{" "}
+              <span className="text-gradient-gold">Sin la aguja.</span>
+            </h2>
+          </SectionReveal>
+
+          <SectionReveal delay={0.1}>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto mb-12">
+              {/* Card 1 — Mounjaro */}
+              <div className="comparison-card comparison-card--red p-5 md:p-6 rounded-sm text-center">
+                <span className="text-3xl mb-3 block">💉</span>
+                <p className="font-bold text-base mb-1 text-[#ff4444]">Mounjaro / Ozempic</p>
+                <p className="text-2xl font-black text-foreground/90" style={{ fontFamily: '"Playfair Display", serif' }}>$500<span className="text-sm font-normal text-muted-foreground">/mes</span></p>
+                <p className="text-xs text-muted-foreground mt-2">Para siempre · Rebote al parar</p>
+              </div>
+              {/* Card 2 — Nutricionista */}
+              <div className="comparison-card comparison-card--gray p-5 md:p-6 rounded-sm text-center">
+                <span className="text-3xl mb-3 block">🥗</span>
+                <p className="font-bold text-base mb-1 text-foreground/60">Nutricionista</p>
+                <p className="text-2xl font-black text-foreground/90" style={{ fontFamily: '"Playfair Display", serif' }}>$120<span className="text-sm font-normal text-muted-foreground">/consulta</span></p>
+                <p className="text-xs text-muted-foreground mt-2">Múltiples sesiones · Sin garantía</p>
+              </div>
+              {/* Card 3 — La Dieta (destaque) */}
+              <div className="comparison-card comparison-card--green p-5 md:p-6 rounded-sm text-center relative overflow-hidden">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald via-emerald-light to-emerald" />
+                <span className="text-3xl mb-3 block">✅</span>
+                <p className="font-bold text-base mb-1 text-emerald">La Dieta de las Brasileñas</p>
+                <p className="text-2xl font-black text-gradient-gold" style={{ fontFamily: '"Playfair Display", serif' }}>$14<span className="text-sm font-normal text-muted-foreground"> · pago único</span></p>
+                <p className="text-xs text-emerald/80 mt-2 font-medium">Acceso vitalicio · 60 días garantía</p>
+              </div>
+            </div>
+          </SectionReveal>
+
+          {/* Transition text */}
+          <SectionReveal delay={0.2}>
+            <p className="text-center text-foreground/60 text-sm md:text-base max-w-lg mx-auto mb-10 leading-relaxed">
+              Misma señal hormonal. Sin la aguja. Sin la factura mensual. Sin perder las curvas.
+            </p>
+          </SectionReveal>
+
+          <SectionReveal delay={0.3}>
             <div className="max-w-lg mx-auto">
               {/* Card elevada */}
               <div className="relative border border-gold/20 rounded-sm overflow-hidden">
@@ -441,10 +574,10 @@ export default function Home() {
 
                 <div className="p-6 md:p-10 text-center bg-gradient-to-b from-[#141414] to-[#0F0F0F]">
                   <h2 className="text-2xl md:text-3xl font-black mb-2" style={{ fontFamily: '"Playfair Display", serif' }}>
-                    Comienza Tu Transformación
+                    El Mapa Completo es Tuyo
                   </h2>
                   <p className="text-muted-foreground text-sm md:text-base mb-8">
-                    Acceso de por vida + 6 bônus exclusivos
+                    Acceso de por vida al protocolo + 6 bônus exclusivos
                   </p>
 
                   {/* Pricing */}
@@ -462,11 +595,11 @@ export default function Home() {
                   {/* Features list */}
                   <div className="space-y-3 mb-8 text-left max-w-xs mx-auto">
                     {[
-                      "Método completo de 21 días",
-                      "6 bônus exclusivos incluidos",
-                      "Acceso vitalicio (sin renovación)",
-                      "Grupo VIP + soporte WhatsApp",
-                      "Garantía de 60 días",
+                      "El protocolo completo de 21 días (la combinación exacta)",
+                      "Lista de compras adaptada a tu país",
+                      "Los 6 bônus exclusivos",
+                      "Acceso vitalicio sin renovación",
+                      "Garantía de 60 días sin preguntas",
                     ].map((item, i) => (
                       <div key={i} className="flex items-center gap-3">
                         <Check className="w-4 h-4 text-emerald flex-shrink-0" />
@@ -480,7 +613,7 @@ export default function Home() {
                     onClick={() => { }}
                     className="w-full cta-shimmer text-white px-8 py-5 rounded-sm font-black text-lg md:text-xl hover:brightness-110 transition-all active:scale-[0.97] animate-pulse-glow flex items-center justify-center gap-3"
                   >
-                    Acceder Ahora
+                    Quiero el mapa completo ahora
                     <ArrowRight className="w-5 h-5" />
                   </button>
 
@@ -497,6 +630,19 @@ export default function Home() {
                     <div className="flex items-center gap-1.5">
                       <Clock className="w-3.5 h-3.5" />
                       <span className="text-[10px] md:text-xs">Acceso Inmediato</span>
+                    </div>
+                  </div>
+
+                  {/* Guarantee box */}
+                  <div className="guarantee-box mt-8 p-5 rounded-sm text-left">
+                    <div className="flex items-start gap-3">
+                      <Shield className="w-5 h-5 text-emerald flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-bold text-sm text-emerald mb-1">🛡️ Garantía Riesgo Cero — 60 días</p>
+                        <p className="text-xs text-foreground/60 leading-relaxed">
+                          Si no ves resultados, te devolvemos el 100% de tu dinero. Sin preguntas. Sin burocracia. Nosotras asumimos todo el riesgo.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -575,6 +721,9 @@ export default function Home() {
               <p className="text-base md:text-lg text-foreground/60 leading-relaxed max-w-md mx-auto">
                 Si no ves resultados en 60 días, devolvemos el 100% de tu dinero. Sin preguntas. Sin letra pequeña. Tu satisfacción es nuestra prioridad absoluta.
               </p>
+              <p className="text-sm text-foreground/40 mt-4">
+                El Efecto Mounjaro Natural funciona. Pero si por cualquier razón no te convence, tu dinero vuelve a ti. Nosotras asumimos todo el riesgo.
+              </p>
             </div>
           </SectionReveal>
         </div>
@@ -587,16 +736,20 @@ export default function Home() {
         <div className="container px-4 md:px-6 text-center">
           <SectionReveal>
             <h2 className="text-3xl md:text-5xl font-black mb-4" style={{ fontFamily: '"Playfair Display", serif' }}>
-              ¿Lista para tu <span className="text-gradient-gold">transformación</span>?
+              El mapa ya existe.{" "}
+              <span className="text-gradient-gold">¿Vas a usarlo?</span>
             </h2>
-            <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-              Únete a +5,000 mujeres que ya cambiaron su relación con su cuerpo.
+            <p className="text-muted-foreground mb-3 max-w-md mx-auto">
+              Las brasileñas no tienen ningún secreto guardado. Solo tienen la combinación correcta.
+            </p>
+            <p className="text-foreground/50 text-sm mb-8 max-w-md mx-auto">
+              Por $14, ese mapa es tuyo hoy. Cintura fina + curvas definidas. Sin agujas. Sin receta. Sin $500 al mes.
             </p>
             <button
               onClick={scrollToOffer}
               className="w-full sm:w-auto cta-shimmer text-white px-10 md:px-12 py-5 rounded-sm font-black text-lg md:text-xl hover:brightness-110 transition-all active:scale-[0.97] animate-pulse-glow inline-flex items-center justify-center gap-3"
             >
-              Acceder Ahora – $14
+              Quiero el mapa completo ahora
               <ArrowRight className="w-5 h-5" />
             </button>
           </SectionReveal>
