@@ -430,6 +430,21 @@ body::before {
     );
     border: 1px solid rgba(212, 175, 55, 0.2);
   }
+
+  /* Scientific reference logos */
+  .ref-logo {
+    opacity: 0.55;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: default;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+  }
+
+  .ref-logo:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.03);
+    transform: scale(1.05);
+  }
 }
 
 /* Reduced motion */

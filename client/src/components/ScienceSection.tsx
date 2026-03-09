@@ -116,6 +116,113 @@ export default function ScienceSection() {
             </SectionReveal>
           ))}
         </div>
+
+        {/* ═══ SCIENTIFIC REFERENCES LOGO BAR ═══ */}
+        <SectionReveal delay={0.5}>
+          <div className="mt-14 md:mt-20">
+            <p className="text-[10px] md:text-xs text-muted-foreground/40 uppercase tracking-[0.25em] text-center mb-6 md:mb-8 font-medium">
+              Referencias científicas publicadas en
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 lg:gap-14">
+              {/* PubMed */}
+              <div className="ref-logo group" title="PubMed">
+                <div className="flex items-center gap-0">
+                  <span
+                    className="text-base md:text-xl font-bold tracking-tight text-white/50 group-hover:text-white/80 transition-colors"
+                    style={{ fontFamily: '"Georgia", "Times New Roman", serif' }}
+                  >
+                    Pub
+                  </span>
+                  <span
+                    className="text-base md:text-xl font-bold tracking-tight text-emerald/70 group-hover:text-emerald transition-colors"
+                    style={{ fontFamily: '"Georgia", "Times New Roman", serif' }}
+                  >
+                    Med
+                  </span>
+                </div>
+              </div>
+
+              {/* Yale News */}
+              <div className="ref-logo group" title="Yale News">
+                <div className="flex items-center gap-1.5">
+                  <span
+                    className="text-base md:text-xl font-bold tracking-tight text-white/50 group-hover:text-white/80 transition-colors"
+                    style={{ fontFamily: '"Georgia", "Times New Roman", serif' }}
+                  >
+                    Yale
+                  </span>
+                  <span
+                    className="text-sm md:text-lg font-normal tracking-tight text-white/30 group-hover:text-white/60 transition-colors"
+                    style={{ fontFamily: '"Georgia", "Times New Roman", serif' }}
+                  >
+                    News
+                  </span>
+                </div>
+              </div>
+
+              {/* NIH */}
+              <div className="ref-logo group" title="National Institutes of Health">
+                <div className="flex flex-col items-center gap-0">
+                  <span
+                    className="text-lg md:text-2xl font-black tracking-wider text-white/50 group-hover:text-white/80 transition-colors leading-none"
+                    style={{ fontFamily: '"Arial Black", "Helvetica", sans-serif' }}
+                  >
+                    NIH
+                  </span>
+                  <span className="text-[6px] md:text-[7px] text-white/25 group-hover:text-white/45 transition-colors tracking-widest uppercase leading-none mt-0.5">
+                    National Library of Medicine
+                  </span>
+                </div>
+              </div>
+
+              {/* Harvard */}
+              <div className="ref-logo group" title="Harvard University">
+                <div className="flex items-center gap-2">
+                  {/* Harvard Shield Icon */}
+                  <svg
+                    className="w-5 h-6 md:w-6 md:h-7 text-[#A41034]/60 group-hover:text-[#A41034] transition-colors"
+                    viewBox="0 0 24 30"
+                    fill="currentColor"
+                  >
+                    <path d="M12 0C5.4 0 0 2.5 0 5.6v18.8C0 27.5 5.4 30 12 30s12-2.5 12-5.6V5.6C24 2.5 18.6 0 12 0zm0 2c5.5 0 10 2 10 4.5S17.5 11 12 11 2 9 2 6.5 6.5 2 12 2z" />
+                    <text x="12" y="20" textAnchor="middle" fontSize="11" fontFamily="serif" fontWeight="bold" fill="currentColor">
+                      VE
+                    </text>
+                  </svg>
+                  <span
+                    className="text-base md:text-xl font-normal tracking-wide text-white/50 group-hover:text-white/80 transition-colors"
+                    style={{ fontFamily: '"Georgia", "Times New Roman", serif', fontVariant: 'small-caps' }}
+                  >
+                    Harvard
+                  </span>
+                </div>
+              </div>
+
+              {/* WebMD */}
+              <div className="ref-logo group" title="WebMD">
+                <div className="flex items-center gap-0">
+                  <span
+                    className="text-base md:text-xl font-bold tracking-tight text-white/50 group-hover:text-white/80 transition-colors"
+                    style={{ fontFamily: '"Arial", "Helvetica", sans-serif' }}
+                  >
+                    Web
+                  </span>
+                  <span
+                    className="text-base md:text-xl font-bold tracking-tight text-emerald/60 group-hover:text-emerald/90 transition-colors"
+                    style={{ fontFamily: '"Arial", "Helvetica", sans-serif' }}
+                  >
+                    MD
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Subtle line separator */}
+            <div className="mt-6 md:mt-8 mx-auto max-w-xs">
+              <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+            </div>
+          </div>
+        </SectionReveal>
       </div>
     </section>
   );
