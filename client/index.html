@@ -17,18 +17,43 @@
   <meta property="og:image"
     content="https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/hero-brazilian-woman-beach-9eQAB7vNJdcRfYGS3pCMqo.webp" />
 
+  <!-- Preload hero image for faster LCP -->
+  <link rel="preload" as="image"
+    href="https://d2xsxph8kpxj0f.cloudfront.net/310519663112717840/bYJ2TcDAKWqnjC7oQDvgfm/hero-brazilian-woman-beach-9eQAB7vNJdcRfYGS3pCMqo.webp"
+    fetchpriority="high" />
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,400;1,700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
 </head>
 
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
-  <script defer src="%VITE_ANALYTICS_ENDPOINT%/umami" data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
+
+  <!-- Analytics — only loads when env vars are properly set -->
+  <script>
+    (function () {
+      var endpoint = '%VITE_ANALYTICS_ENDPOINT%';
+      var websiteId = '%VITE_ANALYTICS_WEBSITE_ID%';
+      // Guard: skip if env vars were not replaced at build time
+      if (
+        endpoint &&
+        websiteId &&
+        endpoint.indexOf('%') === -1 &&
+        websiteId.indexOf('%') === -1
+      ) {
+        var s = document.createElement('script');
+        s.defer = true;
+        s.src = endpoint + '/umami';
+        s.setAttribute('data-website-id', websiteId);
+        document.head.appendChild(s);
+      }
+    })();
+  </script>
 </body>
 
 </html>
