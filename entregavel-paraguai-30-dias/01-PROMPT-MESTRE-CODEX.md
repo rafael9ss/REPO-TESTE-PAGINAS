@@ -34,7 +34,20 @@ ARTE: descrição/prompt da imagem a gerar (quando houver)
 
 ## REGRA Nº 2 — MODO DE PRODUÇÃO
 
-**MODO A (padrão, use este):**
+**MODO A (padrão, use este) — GUIA VISUAL:**
+Este kit é um **guia visual**, não um documento de texto. O cliente deve sentir que está folheando
+uma revista ou um infográfico, nunca lendo uma apostila. Regras obrigatórias de visual:
+- **Toda página tem pelo menos um elemento visual forte**: ilustração, infográfico, ícones grandes,
+  linha do tempo, fluxograma, cartões coloridos ou tabela estilizada. Nenhuma página só com texto.
+- Páginas com campo "ARTE" levam a ilustração gerada ocupando de 30% a 60% da página.
+- Páginas sem campo "ARTE" ganham ícones (gerados pelo GPT Image, estilo do kit) ao lado de cada
+  item, bloco ou etapa, e fundos com textura suave.
+- Transforme listas em **cartões com ícone**, etapas em **trilhas numeradas**, comparações em
+  **tabelas coloridas** e números importantes (taxas, prazos, dias) em **destaques grandes**.
+- Pouco texto por bloco, muito espaço em branco, hierarquia clara (título grande → destaque →
+  texto curto).
+
+Produção:
 1. Monte cada material como um documento **HTML + CSS** (uma `<section class="page">` por página,
    tamanho A4 retrato 210 × 297 mm, margens de 18 mm).
 2. Use o modelo de imagem (GPT Image) **somente** para: capas, ilustrações de abertura de
