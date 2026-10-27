@@ -49,21 +49,21 @@ O que sai daqui: carimbo ou tarjeta migratória
 Quando: Dia 21
 
 5. Antecedentes locais e protocolo
-Onde: Policía Nacional (antecedentes para estrangeiros) e sede ou escritório regional da DNM
+Onde: escribanía (cópias autenticadas), Policía Nacional (antecedentes para estrangeiros) e sede ou escritório regional da DNM
 O que sai daqui: pedido protocolado e status de residente precário
 Quando: Dias 23 a 25
 
 — fim dos 30 dias —
 
 6. Residência temporária concedida
-Onde: Dirección Nacional de Migraciones
+Onde: Dirección Nacional de Migraciones (em Assunção, retirada na Oficina de Expedição, Azara nº 304)
 O que sai daqui: carnet de residente temporário (2 anos)
 Quando: após a análise da DNM — sem prazo oficial publicado
 
 7. Cédula de identidad
 Onde: Departamento de Identificaciones da Policía Nacional
 O que sai daqui: cédula paraguaia
-Quando: após a concessão da residência — confirme o momento no atendimento
+Quando: depois do carnet, com Interpol, Registro de Extranjeros e certificado de vida e residência — até 90 dias úteis
 
 8. Residência permanente
 Onde: Dirección Nacional de Migraciones
@@ -84,7 +84,11 @@ Quem faz o quê
 | Cartório com apostilamento | Brasil | Apostila de Haia nas certidões |
 | Polícia Federal | Brasil | Certidão de antecedentes criminais e controle de saída do país |
 | Dirección Nacional de Migraciones (DNM) | Paraguai | Registro de entrada, pedido de residência, carnet, certificado de radicación, residência permanente |
-| Policía Nacional | Paraguai | Certificado de antecedentes para estrangeiros |
+| Escribanía pública | Paraguai | Cópias autenticadas do documento de identidade |
+| Policía Nacional — Departamento de Informática | Paraguai | Certificado de antecedentes para estrangeiros |
+| Policía Nacional — Departamento de Interpol | Paraguai | Certificado da Interpol (rota geral e cédula) |
+| Policía Nacional — Registro de Extranjeros | Paraguai | Carnet de Registro de Extranjeros (para a cédula) |
+| Comisaría do bairro ou Juzgado de Paz | Paraguai | Certificado de vida e residência (para a cédula) |
 | Departamento de Identificaciones (Policía Nacional) | Paraguai | Cédula de identidad paraguaia |
 | DNIT — Dirección Nacional de Ingresos Tributarios | Paraguai | RUC, para quem vai trabalhar como autônomo ou abrir empresa |
 | Receita Federal | Brasil | Comunicação e Declaração de Saída Definitiva do País (avalie com contador) |

@@ -1,4 +1,4 @@
-# MATERIAL 1 — GUIA PRÁTICO DE IMIGRAÇÃO (PDF digital, 26 páginas)
+# MATERIAL 1 — GUIA PRÁTICO DE IMIGRAÇÃO (PDF digital, 38 páginas)
 
 > Cole no Codex depois do prompt mestre. Instrução ao Codex: "Produza o Material 1 seguindo
 > o prompt mestre, Modo A."
@@ -78,8 +78,9 @@ Sumário
 10. Da temporária à permanente ........................ 22
 11. Os 10 erros que mais atrasam a residência ......... 23
 12. Gestor, advogado ou você mesmo? ................... 24
-Próximos passos ...................................... 25
-Fontes oficiais e contatos ........................... 26
+PARTE 2 — Passo a Passo Detalhado (11 fichas) ......... 25
+Próximos passos ...................................... 37
+Fontes oficiais e contatos ........................... 38
 
 ---
 
@@ -150,7 +151,9 @@ Residente precário — situação de quem já protocolou o pedido e aguarda a d
 
 Carnet de residente — documento emitido pela DNM que comprova a residência concedida.
 
-Cédula de identidad — documento de identidade paraguaio, emitido pelo Departamento de Identificaciones da Policía Nacional depois que a residência é concedida.
+Cédula de identidad — documento de identidade paraguaio, emitido pelo Departamento de Identificaciones da Policía Nacional. Residentes temporários e permanentes podem pedir.
+
+Escribanía — o cartório de notas do Paraguai. É onde você autentica cópias de documentos.
 
 Apostila de Haia — certificação feita em cartório no Brasil que torna um documento brasileiro válido no Paraguai.
 
@@ -228,7 +231,7 @@ Antecedentes locais e entrega do pedido na DNM. A partir daqui, você é residen
 Retirada do carnet. A DNM não publica um prazo oficial de análise.
 
 5. Depois da residência — Cédula paraguaia
-Emitida pelo Departamento de Identificaciones da Policía Nacional.
+Emitida pelo Departamento de Identificaciones da Policía Nacional, em até 90 dias úteis após o pedido.
 
 6. Até 2 anos depois — Residência permanente
 Pedido feito nos 90 dias antes do vencimento da temporária.
@@ -326,7 +329,7 @@ Rota geral (Lei 6.984/2022)
 • Certificado da Interpol.
 • Declarações juradas de cumprimento das leis, da atividade que vai exercer e do domicílio no país.
 
-[box-dica] Confirme no atendimento da DNM ou da Policía Nacional o endereço atual e o horário de emissão dos certificados antes de ir. Os locais de atendimento mudam com frequência, e informações antigas circulam muito em grupos de internet.
+[box-dica] Os dois certificados exigem cópia do seu documento autenticada em uma escribanía paraguaia. Endereços, valores e o passo a passo estão nos Passos 6, 7 e 8 (páginas 31 a 33).
 
 ---
 
@@ -346,7 +349,7 @@ O pedido de residência é pessoal e presencial. Você pode acompanhar o process
 5. Guarde todos os comprovantes: pagamento, protocolo e qualquer papel entregue a você.
 6. Anote o que vem depois: quando e como acompanhar o processo e onde retirar o carnet.
 
-O passo a passo do dia, com roteiro de conversa em espanhol, está no Material 6 — Roteiro de Viagem e Protocolo.
+Os endereços de todos os escritórios da DNM estão no Passo 9 (página 34). O passo a passo do dia, com roteiro de conversa em espanhol, está no Material 6 — Roteiro de Viagem e Protocolo.
 ARTE: pasta sanfonada azul com divisórias coloridas e documentos alinhados, sobre uma mesa clara.
 
 ---
@@ -426,7 +429,7 @@ TEXTO (literal):
 Depois da residência: os primeiros registros
 
 Cédula de identidad paraguaya
-Emitida pelo Departamento de Identificaciones da Policía Nacional. A Lei 6.984/2022 permite a cédula ao residente temporário, com a mesma validade da residência. Na Rota Mercosul, a DNM informa que a cédula é emitida depois da concessão da residência: confirme no atendimento em que momento você poderá pedir a sua.
+Emitida pelo Departamento de Identificaciones da Policía Nacional. Residentes temporários e permanentes podem pedir (Resolução 717/2026). Exige 10 documentos, entre eles Interpol e certificado de vida e residência. Passo a passo completo no Passo 11 (página 36).
 
 Certificado de radicación
 Comprova que você é residente. Bancos, empresas e escolas costumam pedir. Taxa oficial: Gs 234.154.
@@ -534,7 +537,401 @@ Desconfie de qualquer pessoa que garanta aprovação ou prazo. Veja as 15 verifi
 
 ---
 
-### PÁGINA 25 — Próximos passos
+### PÁGINA 25 — Parte 2: Passo a Passo Detalhado
+TIPO: abertura de parte
+LAYOUT: página de abertura forte: fundo azul, título grande em branco, ilustração de trilha com 11 marcos numerados; abaixo, explicação de como ler as fichas com um mini-modelo de ficha desenhado.
+TEXTO (literal):
+PARTE 2
+Passo a Passo Detalhado
+
+Nesta parte, cada passo tem uma ficha com tudo o que você precisa para executar sem depender de ninguém:
+
+ONDE IR — o local, com endereço.
+O QUE LEVAR — os documentos e itens.
+COMO FAZER — a sequência, do começo ao fim.
+QUANTO CUSTA — o valor, quando há valor oficial.
+QUANTO DEMORA — o tempo aproximado.
+O QUE VOCÊ LEVA DE LÁ — o documento que sai daquele passo.
+
+Passos 1 a 4: no Brasil. Passos 5 a 11: no Paraguai.
+
+[box-atencao] Endereços, horários e valores foram conferidos em outubro de 2026 em fontes oficiais. Quando um dado não tem fonte oficial, a ficha avisa. Antes de ir a qualquer local, confirme por telefone.
+ARTE: trilha pontilhada vista de cima, saindo de uma casa simples e passando por 11 círculos numerados em branco até uma casa com lapacho florido. Números podem ser desenhados por HTML sobre a imagem.
+
+---
+
+### PÁGINA 26 — Passo 1: Certidões de nascimento e casamento
+TIPO: ficha de passo
+LAYOUT (padrão de TODAS as fichas de passo, páginas 26 a 36): faixa superior com "PASSO N" em círculo vermelho grande + título em azul + selo "BRASIL" (azul) ou "PARAGUAI" (erva). Abaixo, 6 blocos com ícone grande cada: ONDE IR (pino de mapa), O QUE LEVAR (pasta), COMO FAZER (lista numerada, bloco mais largo), QUANTO CUSTA (moeda), QUANTO DEMORA (relógio), O QUE VOCÊ LEVA DE LÁ (documento com check). No rodapé, uma caixa de dica ou de erro comum.
+TEXTO (literal):
+PASSO 1 · BRASIL
+Certidões de nascimento e casamento
+
+ONDE IR
+No cartório de Registro Civil onde você foi registrado (ou onde casou) — ou pela internet, em registrocivil.org.br, sem sair de casa.
+
+O QUE LEVAR
+Documento de identidade com CPF. Para pedir pela internet: nome completo, data de nascimento, nomes dos pais e o cartório de registro (está na sua certidão antiga).
+
+COMO FAZER (pela internet)
+1. Acesse registrocivil.org.br.
+2. Escolha o tipo de certidão: nascimento ou casamento.
+3. Preencha os dados da pessoa e do cartório de registro.
+4. Escolha a certidão impressa, entregue no seu endereço — você vai precisar do papel para apostilar.
+5. Pague e anote o número do pedido.
+
+QUANTO CUSTA
+Varia por estado (tabela de emolumentos do cartório) mais o envio.
+
+QUANTO DEMORA
+Alguns dias úteis, mais o prazo de entrega.
+
+O QUE VOCÊ LEVA DE LÁ
+Certidão de nascimento recente (e de casamento ou divórcio, se houver), pronta para apostilar.
+
+[box-dica] Peça uma certidão para cada pessoa da família, inclusive para as crianças.
+
+---
+
+### PÁGINA 27 — Passo 2: Antecedentes da Polícia Federal
+TIPO: ficha de passo
+TEXTO (literal):
+PASSO 2 · BRASIL
+Certidão de antecedentes criminais
+
+ONDE IR
+Pela internet, no site da Polícia Federal: gov.br/pf → Serviços → Antecedentes criminais.
+
+O QUE LEVAR
+Seus dados: nome completo, nome da mãe, CPF, data de nascimento, nacionalidade e número do documento de identidade.
+
+COMO FAZER
+1. Acesse gov.br/pf e entre em Serviços → Antecedentes criminais → Emitir certidão.
+2. Preencha os dados exatamente como estão no seu documento.
+3. Baixe o PDF da certidão e imprima.
+4. Se a certidão não sair na hora, siga a orientação que aparece na tela. Pode ser preciso ir a uma unidade da Polícia Federal.
+
+QUANTO CUSTA
+Gratuito.
+
+QUANTO DEMORA
+Na maioria dos casos, sai na hora.
+
+O QUE VOCÊ LEVA DE LÁ
+Certidão de antecedentes criminais da Polícia Federal impressa, pronta para apostilar. Uma para cada pessoa a partir de 14 anos.
+
+[box-erro] Emitir cedo demais. Faça este passo no máximo 2 a 3 semanas antes da viagem: a certidão costuma valer 90 dias.
+
+---
+
+### PÁGINA 28 — Passo 3: Apostila de Haia
+TIPO: ficha de passo
+TEXTO (literal):
+PASSO 3 · BRASIL
+Apostila de Haia
+
+ONDE IR
+Cartório autorizado pelo CNJ a fazer apostilamento. A lista oficial está no site do CNJ: cnj.jus.br → Apostila da Haia → Cartórios autorizados.
+
+O QUE LEVAR
+Os originais impressos de: certidão de nascimento, certidão de casamento ou divórcio (se houver) e certidão de antecedentes da Polícia Federal. Documento de identidade.
+
+COMO FAZER
+1. Na lista do CNJ, encontre 2 cartórios perto de você.
+2. Ligue e pergunte: "Vocês fazem apostila? Qual o valor por documento? Fica pronto no mesmo dia?"
+3. Vá ao cartório escolhido e entregue os documentos.
+4. Pague uma apostila por documento.
+5. Antes de sair, confira se nome, datas e número de cada documento estão corretos na apostila.
+
+QUANTO CUSTA
+Valor por documento, definido pela tabela do seu estado.
+
+QUANTO DEMORA
+Depende do cartório: pergunte na ligação.
+
+O QUE VOCÊ LEVA DE LÁ
+Cada certidão com a sua apostila, válida no Paraguai.
+
+[box-dica] Guarde as certidões apostiladas em envelope plástico, sem dobrar, grampear ou plastificar.
+
+---
+
+### PÁGINA 29 — Passo 4: Documentos dos filhos
+TIPO: ficha de passo
+TEXTO (literal):
+PASSO 4 · BRASIL
+Documentos dos filhos (se houver)
+
+ONDE IR
+Cartório de notas (tabelionato) — ou pela internet, pelo e-Notariado.
+
+O QUE LEVAR
+Documentos de identidade dos pais e dos filhos e certidão de nascimento dos filhos.
+
+COMO FAZER
+1. Se só um dos pais vai viajar, o outro assina a autorização de viagem internacional (formulário padrão do CNJ), com firma reconhecida em cartório ou pelo e-Notariado. A autorização também pode constar no passaporte da criança.
+2. Se um dos pais vai ficar no Brasil, providencie também uma autorização notarial para a residência da criança no Paraguai — a DNM pede esse documento quando um dos pais está ausente. Peça ao cartório que faça e apostile.
+3. Faça os Passos 1 a 3 também para cada filho (antecedentes só a partir de 14 anos).
+
+QUANTO CUSTA
+Valores de cartório, definidos pela tabela do seu estado.
+
+QUANTO DEMORA
+Normalmente, no mesmo dia.
+
+O QUE VOCÊ LEVA DE LÁ
+Autorização de viagem e, se for o caso, autorização notarial apostilada para a residência.
+
+[box-atencao] Confirme com a DNM (migraciones@migraciones.gov.py) o texto exigido na autorização para a residência antes de ir ao cartório.
+
+---
+
+### PÁGINA 30 — Passo 5: Saída do Brasil e entrada no Paraguai
+TIPO: ficha de passo
+TEXTO (literal):
+PASSO 5 · PARAGUAI
+Saída do Brasil e entrada no Paraguai
+
+ONDE IR
+Por avião: imigração do aeroporto (em Assunção, o Aeroporto Internacional Silvio Pettirossi, em Luque).
+Por terra: posto da Polícia Federal no lado brasileiro e posto da Dirección Nacional de Migraciones no lado paraguaio.
+
+O QUE LEVAR
+RG emitido há menos de 10 anos, CIN ou passaporte de cada pessoa. Autorização de viagem dos filhos, se for o caso.
+
+COMO FAZER
+1. No lado brasileiro, registre a saída na Polícia Federal.
+2. No lado paraguaio, pare no posto da DNM e apresente os documentos de todos.
+3. Receba o carimbo ou a tarjeta migratória de cada pessoa.
+4. Confira o prazo concedido antes de sair do guichê.
+
+QUANTO CUSTA
+Gratuito.
+
+QUANTO DEMORA
+Minutos, ou mais em feriados e horários de pico.
+
+O QUE VOCÊ LEVA DE LÁ
+Comprovante de entrada (carimbo ou tarjeta). Sem ele, você não protocola a residência.
+
+[box-erro] Atravessar a Ponte da Amizade ou outra fronteira seca sem parar nos postos. Multa de Gs 702.462 por pessoa e residência travada.
+
+---
+
+### PÁGINA 31 — Passo 6: Cópias autenticadas na escribanía
+TIPO: ficha de passo
+TEXTO (literal):
+PASSO 6 · PARAGUAI
+Cópias autenticadas na escribanía
+
+ONDE IR
+Qualquer escribanía pública (o cartório de notas do Paraguai). Há várias na região da sede da DNM, perto de Eligio Ayala e Caballero, em Assunção — e em todas as cidades maiores.
+
+O QUE LEVAR
+Original do documento de identidade (RG, CIN ou passaporte) de cada pessoa.
+
+COMO FAZER
+1. Peça cópias autenticadas ("copias autenticadas") do documento de identidade de cada pessoa.
+2. Peça pelo menos 4 cópias de cada: uma para a DNM, uma para o certificado de antecedentes, uma para a Interpol (se precisar) e uma reserva.
+3. Confira se cada cópia tem carimbo e assinatura do escribano.
+
+QUANTO CUSTA
+Varia por escribanía. Pergunte o valor por cópia antes.
+
+QUANTO DEMORA
+Normalmente, na hora.
+
+O QUE VOCÊ LEVA DE LÁ
+Cópias autenticadas do seu documento, exigidas pela Policía Nacional, pela Interpol e pela DNM.
+
+[box-dica] Frase útil: "Necesito cuatro copias autenticadas de mi documento, por favor."
+
+---
+
+### PÁGINA 32 — Passo 7: Certificado de antecedentes para estrangeiros
+TIPO: ficha de passo
+TEXTO (literal):
+PASSO 7 · PARAGUAI
+Certificado de antecedentes para estrangeiros
+
+ONDE IR
+Departamento de Informática da Policía Nacional, em Assunção. Se você vai protocolar em um escritório regional da DNM, pergunte lá onde emitir o certificado na sua cidade.
+
+O QUE LEVAR
+Cópia do documento de identidade autenticada por escribano paraguaio (Passo 6). Leve também o original.
+
+COMO FAZER
+1. Ligue antes para confirmar endereço e horário: Policía Nacional (0976) 201 058.
+2. Apresente a cópia autenticada e peça o "certificado de antecedentes para extranjeros".
+3. Pague a taxa e anote quando retirar.
+4. Faça para cada pessoa a partir de 14 anos.
+
+QUANTO CUSTA
+Não encontramos valor oficial publicado. Guias privados citam cerca de Gs 63.000 — confirme no local.
+
+QUANTO DEMORA
+Cerca de 24 horas, segundo guias privados.
+
+O QUE VOCÊ LEVA DE LÁ
+Certificado de antecedentes para estrangeiros, com validade de 3 meses.
+
+[box-atencao] Faça este passo logo depois de chegar e protocole a residência dentro da validade do certificado.
+
+---
+
+### PÁGINA 33 — Passo 8: Certificado da Interpol
+TIPO: ficha de passo
+TEXTO (literal):
+PASSO 8 · PARAGUAI
+Certificado da Interpol
+
+Quem precisa agora: quem pede a residência pela rota geral (Lei 6.984/2022).
+Quem precisa depois: todos, para tirar a cédula paraguaia (Passo 11).
+
+ONDE IR
+Departamento de Interpol da Policía Nacional
+Cnel. Gracia nº 468, entre Tte. Rodi e Dr. Mazzei — Assunção
+Segunda a sexta, das 7h às 17h · +595 21 422 426
+
+O QUE LEVAR
+1. Formulário de solicitação (pegue no local).
+2. Cópia do documento de identidade autenticada por escribanía.
+3. Duas fotos 3x4.
+4. Cópia simples da cédula paraguaia ou do carnet de residente, se já tiver.
+
+COMO FAZER
+1. Preencha o formulário no local.
+2. Entregue os documentos e pague a taxa.
+3. Volte para retirar no prazo informado.
+
+QUANTO CUSTA
+A tabela oficial publicada é de Gs 84.000 (Resolução 1010/2020). Segundo a imprensa, a taxa passou a acompanhar o jornal mínimo, de Gs 117.077 desde julho de 2026. Confirme no local.
+
+QUANTO DEMORA
+24 a 48 horas, aproximadamente.
+
+O QUE VOCÊ LEVA DE LÁ
+Certificado de antecedentes da Interpol.
+
+---
+
+### PÁGINA 34 — Passo 9: O protocolo na DNM
+TIPO: ficha de passo + tabela de escritórios
+LAYOUT: ficha de passo na metade superior; na metade inferior, tabela compacta com os escritórios da DNM.
+TEXTO (literal):
+PASSO 9 · PARAGUAI
+O protocolo da residência na DNM
+
+ONDE IR
+Na sede central ou em um escritório regional da DNM (tabela abaixo). Atendimento por ordem de chegada.
+
+O QUE LEVAR
+A pasta completa do Checklist 3, com originais e cópias autenticadas, e o valor da taxa.
+
+COMO FAZER
+1. Chegue antes da abertura.
+2. Pergunte onde fica a fila ou a senha para residência.
+3. Entregue a pasta para conferência.
+4. Assine a declaração jurada emitida pela própria DNM (Rota Mercosul).
+5. Faça a coleta de dados que for pedida no local (foto e digitais, se solicitadas).
+6. Pague a taxa e receba o comprovante do pedido.
+
+QUANTO CUSTA
+Rota Mercosul: Gs 2.341.540. Rota geral: Gs 2.926.925 (dinheiro, valores de julho de 2026).
+
+QUANTO DEMORA
+Uma manhã, em média, dependendo da fila.
+
+O QUE VOCÊ LEVA DE LÁ
+Comprovante do pedido. A partir daqui, você é residente precário.
+
+Escritórios da DNM que recebem pedidos (segunda a sexta)
+| Cidade | Endereço | Horário |
+|---|---|---|
+| Assunção (sede central) | Eligio Ayala esq. Caballero nº 201 | 7h às 14h30 |
+| Ciudad del Este | Av. Rogelio Benítez quase 4 de Mayo | 7h às 14h30 |
+| Encarnación | 25 de Mayo c/ Honorio González | 7h às 15h |
+| Pedro Juan Caballero | Carlos Antonio López esq. Benjamín Aceval | 7h às 15h |
+| Salto del Guairá | Av. Bernardino Caballero c/ 34 Curuguateños | 7h às 15h |
+| Santa Rita | Barrio La Amistad, entre calle 1ra. e 2da. | 7h às 15h |
+| Concepción | Cnel. Martínez c/ Cerro Corá | 7h às 15h |
+| Nueva Esperanza | Calle Guavira, entre Chivato e Palmas | 7h às 15h |
+| Pilar | Av. Capitán Bado, Puerto Nuevo | 7h às 15h |
+| Mariscal Estigarribia | Ruta nº 9, ao lado da Aduana | 7h às 18h (sábado 7h às 15h) |
+Telefone geral da DNM: +595 21 411 2000
+
+---
+
+### PÁGINA 35 — Passo 10: Acompanhar o pedido e retirar o carnet
+TIPO: ficha de passo
+TEXTO (literal):
+PASSO 10 · PARAGUAI
+Acompanhar o pedido e retirar o carnet
+
+ONDE IR
+Em Assunção, a retirada é feita na Oficina de Expedição da DNM, exclusiva para retirada de carnets e documentos migratórios:
+Azara nº 304 esq. Iturbe — Assunção · segunda a sexta, das 7h às 14h30.
+Se você protocolou em um escritório regional, pergunte lá onde será a retirada.
+
+O QUE LEVAR
+Documento de identidade original e o comprovante do pedido.
+
+COMO FAZER
+1. No dia do protocolo, pergunte como acompanhar o pedido: "¿Cómo puedo seguir el trámite?" Anote o canal informado.
+2. A DNM não publica um prazo oficial de análise. Se passar muito tempo sem notícia, ligue para +595 21 411 2000 ou escreva para migraciones@migraciones.gov.py informando nome completo, documento e número do pedido.
+3. Se a DNM pedir algum documento extra, entregue o quanto antes.
+4. Quando o carnet estiver pronto, vá pessoalmente retirá-lo.
+
+QUANTO CUSTA
+Já incluído na taxa da residência.
+
+QUANTO DEMORA
+Sem prazo oficial publicado.
+
+O QUE VOCÊ LEVA DE LÁ
+Carnet de residente temporário (2 anos na Rota Mercosul). Anote no mesmo dia a data de vencimento.
+
+[box-dica] Aproveite a ida à DNM e peça o certificado de radicación (Gs 234.154). Ele é exigido para a cédula, no próximo passo.
+
+---
+
+### PÁGINA 36 — Passo 11: Cédula paraguaia
+TIPO: ficha de passo (checklist denso — pode ocupar a página inteira em 2 colunas)
+TEXTO (literal):
+PASSO 11 · PARAGUAI
+Cédula de identidad paraguaya
+
+Residentes temporários e permanentes podem pedir a cédula (Resolução 717/2026 da Policía Nacional). É o passo mais trabalhoso: comece a juntar os documentos assim que receber o carnet.
+
+ONDE IR
+Departamento de Identificaciones da Policía Nacional — Oficina Central: Denis Roa esq. Av. Boggiani, Assunção (ou oficina regional de Identificaciones).
+
+O QUE LEVAR (originais e cópias autenticadas em escribanía)
+1. Certificado de radicación (temporária ou permanente), emitido pela DNM.
+2. Cópia autenticada do carnet de admissão emitido pela DNM.
+3. Cópia autenticada do documento de identidade brasileiro.
+4. Certidão de nascimento original apostilada.
+5. Documento de estado civil (certidão de casamento ou de divórcio apostilada, se for o caso).
+6. Certificado de vida e residência, emitido pela delegacia (comisaría) do seu bairro ou pelo Juzgado de Paz.
+7. Certidão de antecedentes do Brasil (dos últimos 3 anos), apostilada — a partir de 14 anos.
+8. Certificado da Interpol (Passo 8) — a partir de 14 anos.
+9. Certificado de antecedentes para estrangeiros (Passo 7) — a partir de 14 anos.
+10. Cópia autenticada do carnet de Registro de Extranjeros, emitido pela Policía Nacional (Guillermo Arias c/ Tte. Rodi, Barrio Sajonia, Assunção, no subsolo da sede da Interpol).
+
+QUANTO CUSTA
+Taxa da cédula: Gs 8.500 (mais os documentos acima).
+
+QUANTO DEMORA
+Até 90 dias úteis para a entrega.
+
+O QUE VOCÊ LEVA DE LÁ
+Sua cédula paraguaia. Só você pode retirá-la, pessoalmente.
+
+[box-atencao] Os documentos estrangeiros precisam estar dentro da validade no dia do pedido. Como a cédula vem meses depois da viagem, você provavelmente vai precisar de uma nova certidão da Polícia Federal apostilada. Deixe alguém com procuração no Brasil para emitir, apostilar e enviar para você. Os certificados de vida e residência, da Interpol e do Registro de Extranjeros também precisam de certificações internas da Policía Nacional: pergunte o passo a passo atualizado no balcão de Identificaciones antes de começar.
+
+---
+
+### PÁGINA 37 — Próximos passos
 TIPO: encerramento
 LAYOUT: ilustração no topo (metade da página); 3 passos grandes numerados; frase final em azul.
 TEXTO (literal):
@@ -549,7 +946,7 @@ ARTE: uma pessoa sentada à mesa da cozinha, com uma cuia de tereré ao lado, ma
 
 ---
 
-### PÁGINA 26 — Fontes oficiais e contatos
+### PÁGINA 38 — Fontes oficiais e contatos
 TIPO: conteúdo (referência)
 LAYOUT: lista em 2 colunas agrupada por país; links clicáveis no PDF.
 TEXTO (literal):
@@ -559,6 +956,10 @@ Paraguai
 • Dirección Nacional de Migraciones (DNM) — migraciones.gov.py
   Sede central: Caballero nº 201, esquina Eligio Ayala, Assunção
   +595 21 411 2000 · migraciones@migraciones.gov.py
+• Escritórios da DNM — migraciones.gov.py/oficinas-de-admision-de-extranjeros
+• Retirada de carnets (Oficina de Expedição): Azara nº 304 esq. Iturbe, Assunção
+• Interpol (Policía Nacional): Cnel. Gracia nº 468, Assunção · +595 21 422 426
+• Identificaciones (cédula): Denis Roa esq. Av. Boggiani, Assunção · policianacional.gov.py/identificaciones
 • Tabela de taxas — migraciones.gov.py/aranceles-migratorios
 • Residência temporária Mercosul — migraciones.gov.py/residencia-temporaria-mercosur
 • Residência permanente Mercosul — migraciones.gov.py/residencia-permanente-mercosur

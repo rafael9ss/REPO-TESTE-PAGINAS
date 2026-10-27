@@ -15,7 +15,7 @@
 
 | Ordem | Arquivo | Material final | Páginas |
 |---|---|---|---|
-| 1 | `02-guia-pratico-imigracao.md` | Guia principal (PDF) | 26 |
+| 1 | `02-guia-pratico-imigracao.md` | Guia principal (PDF) — inclui a Parte 2, Passo a Passo Detalhado | 38 |
 | 2 | `03-cronograma-30-dias.md` | Cronograma (PDF imprimível) | 7 |
 | 3 | `04-checklists-documentacao.md` | 3 checklists (3 PDFs) | 3 × 2 |
 | 4 | `05-mapa-processo-residencia.md` | Mapa do processo (PDF visual) | 3 |
@@ -101,13 +101,11 @@ Você vende orientação sobre procedimento legal. Todo material tem aviso de qu
 assessoria jurídica** e que as regras devem ser confirmadas na Dirección Nacional de Migraciones
 (DNM). Não remova esses avisos para "deixar mais limpo". Eles protegem você.
 
-### 2.6 Ponto em aberto que você deve confirmar por telefone/e-mail com a DNM
+### 2.6 Ponto que estava em aberto e foi resolvido
 
-A Lei 6.984/2022 permite cédula paraguaia ao residente **temporário**. Mas o texto da DNM sobre a
-rota **Mercosul** diz que a cédula "se expide únicamente una vez otorgada dicha residencia", e a
-redação é ambígua (pode se referir à permanente). O guia trata isso com transparência ("confirme no
-atendimento"). Se você conseguir a resposta oficial (migraciones@migraciones.gov.py /
-+595 21 411 2000), atualize a página 20 do guia e o mapa.
+A Resolução 717/2026 da Policía Nacional confirma que residentes **temporários** e permanentes
+podem pedir a cédula. Ela exige 10 documentos (Interpol, Registro de Extranjeros, certificado de
+vida e residência, entre outros), custa Gs 8.500 e leva até 90 dias úteis. Está no Passo 11 do Guia.
 
 ---
 

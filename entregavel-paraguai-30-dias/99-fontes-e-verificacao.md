@@ -18,6 +18,11 @@ Verificação feita em 27/10/2026. Use esta lista para revisar o kit a cada 3 me
 | Valorização do guaraní em 2026 (+10,48% vs dólar até agosto) | https://www.swissinfo.ch/spa/la-moneda-paraguaya-se-aprecia-m%c3%a1s-de-un-10-%25-frente-al-d%c3%b3lar-en-lo-que-va-de-2026/91841534 |
 | RUC gratuito, online + presencial, sistema Marangatu | https://www.dnit.gov.py/web/portal-institucional/w/dnit-recuerda-como-inscribirse-en-el-ruc-de-forma-rapida-y-sencilla |
 | EmpleaPy (MTESS) | https://www.ultimahora.com/hay-986-vacancias-en-el-portal-empleapy |
+| Escritórios da DNM (endereços e horários) e Oficina de Expedição (Azara 304, retirada de carnets) | https://migraciones.gov.py/oficinas-de-admision-de-extranjeros/ |
+| Cédula para estrangeiros com radicação temporária ou permanente (Res. 717/2026): 10 requisitos, Gs 8.500, 90 dias úteis, endereços | https://www.policianacional.gov.py/identificaciones/cedula-de-identidad-por-primera-vez-a-extranjeros-con-radicacion-permanente/ e https://www.abc.com.py/policiales/2026/08/19/los-diez-requisitos-para-la-cedula-de-identidad-paraguaya-de-extranjeros/ |
+| Interpol: requisitos, Cnel. Gracia 468, 07–17h, 24–48h, Gs 84.000 (Res. 1010/2020) | https://www.policianacional.gov.py/wp-content/uploads/2022/08/requisitos-interpol.pdf |
+| Interpol: custo atrelado ao jornal mínimo (Gs 117.077) desde jul/2026 | https://www.abc.com.py/nacionales/2026/07/01/certificado-de-antecedentes-interpol-nuevo-costo-vigente-desde-julio-2026/ |
+| Lista de cartórios de apostila | https://www.cnj.jus.br/poder-judiciario/relacoes-internacionais/apostila-da-haia/ |
 | 911 / SEME 141 / Bombeiros 132 | https://www.bacn.gov.py/leyes-paraguayas/3143/ (Lei 4.739) e informe do Sistema 911 |
 
 ## Não oficiais (usados apenas como referência de faixa)
@@ -30,15 +35,17 @@ Verificação feita em 27/10/2026. Use esta lista para revisar o kit a cada 3 me
 
 ## Pontos em aberto — confirmar com a DNM antes de publicar
 
-1. **Cédula na rota Mercosul**: a Lei 6.984/2022 dá cédula ao temporário; o texto da DNM sobre
-   Mercosul diz que a cédula sai "una vez otorgada dicha residencia" (ambíguo). O kit diz "confirme
-   no atendimento". Se a DNM responder, atualize: Guia p. 7, p. 10 e p. 20; Mapa estação 7.
-2. **Cópia autenticada**: a DNM pede "original y copia autenticada" do documento de identidade.
-   Não está claro se a autenticação deve ser feita no Paraguai (escribanía) ou se vale a do Brasil.
+1. ~~Cédula na rota Mercosul~~ — RESOLVIDO: Res. 717/2026 inclui radicação temporária.
+2. **Cópia autenticada**: Interpol e antecedentes para estrangeiros exigem cópia autenticada por
+   escribanía paraguaia; o kit adota isso para todos os trâmites (Passo 6).
 3. **Prazo de 90 dias das certidões**: aparece em guias privados, não achei na página oficial.
    O kit trata como "costuma ser" / "preferência".
-4. **Valor do certificado de antecedentes para estrangeiros (Policía Nacional)** e da cédula:
-   não achei valor oficial vigente. A planilha deixa o campo para o cliente preencher.
+4. **Certificado de antecedentes para estrangeiros**: sem valor nem endereço oficial atual
+   (guia privado: Gs 63.000, 24 h, Departamento de Informática). O kit manda ligar antes.
+   **Interpol**: valor oficial publicado Gs 84.000 (2020); imprensa diz que acompanha o jornal
+   mínimo (Gs 117.077). Confirmar.
+7. **Acompanhamento do pedido**: não há consulta online oficial encontrada. O kit orienta a
+   perguntar no protocolo e usar telefone/e-mail da DNM.
 5. **Prazo de análise da residência**: não há prazo oficial publicado. Não prometa prazo.
 6. **Canais do Bônus 2**: Clasipar e BuscoJobs aparecem em fontes secundárias; abra os sites antes
    de publicar para confirmar que estão no ar e que o endereço está correto.

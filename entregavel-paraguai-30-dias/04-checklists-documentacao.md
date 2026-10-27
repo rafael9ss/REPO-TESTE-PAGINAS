@@ -21,7 +21,7 @@ Use entre os Dias 2 e 14 do cronograma.
 
 Identidade
 ☐ RG emitido há menos de 10 anos, CIN ou passaporte válido — Original. Confira se a foto ainda permite reconhecer a pessoa.
-☐ 2 cópias do documento de identidade (frente e verso) — Pergunte na DNM se a cópia precisa ser autenticada no Paraguai.
+☐ 2 cópias simples do documento de identidade (frente e verso) — As cópias autenticadas serão feitas numa escribanía no Paraguai.
 ☐ Passaporte (recomendado mesmo se for entrar com RG) — Facilita bancos, voos e outros trâmites.
 
 Registro civil
@@ -114,7 +114,7 @@ Use nos Dias 20, 24 e 25. Monte a pasta nesta ordem.
 
 Divisória 1 — Identidade
 ☐ Documento de identidade original (RG, CIN ou passaporte)
-☐ Cópia do documento de identidade
+☐ Cópia do documento de identidade autenticada em escribanía paraguaia
 
 Divisória 2 — Registro civil
 ☐ Certidão de nascimento apostilada

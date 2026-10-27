@@ -187,11 +187,12 @@ Objetivo: entregar o pedido de residência e começar a vida local.
 
 DIA 22 — Chegada e instalação
 ☐ Compre um chip de celular local.
+☐ Vá a uma escribanía e faça 4 cópias autenticadas do documento de identidade de cada pessoa (Guia, Passo 6).
 ☐ Confirme o trajeto até a DNM e até a Policía Nacional.
 ☐ Troque uma quantia de reais ou dólares por guaranis em casa de câmbio autorizada.
 
 DIA 23 — Antecedentes no Paraguai
-☐ Peça o certificado de antecedentes para estrangeiros na Policía Nacional (adultos e filhos a partir de 14 anos).
+☐ Peça o certificado de antecedentes para estrangeiros na Policía Nacional, levando a cópia autenticada (adultos e filhos a partir de 14 anos — Guia, Passo 7).
 ☐ Se estiver na rota geral, peça também o certificado da Interpol.
 ☐ Guarde os comprovantes na pasta.
 
