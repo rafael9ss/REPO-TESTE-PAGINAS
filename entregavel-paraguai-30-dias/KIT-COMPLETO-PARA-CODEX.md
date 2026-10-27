@@ -155,7 +155,7 @@ Ao terminar cada material, me entregue:
 2. A lista de imagens geradas com o prompt usado em cada uma.
 3. "Dúvidas para revisão" (se houver).
 
-Confirme que entendeu e aguarde o primeiro arquivo.
+Os materiais vêm logo abaixo, neste mesmo arquivo. Comece pela PRIMEIRA TAREFA (teste) descrita nas Instruções de Execução.
 
 FIM DO PROMPT
 
