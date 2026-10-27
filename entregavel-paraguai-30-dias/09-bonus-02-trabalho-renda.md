@@ -19,13 +19,15 @@ ARTE: mesa com notebook, caderno com anotações, um celular e uma cuia de terer
 ### PÁGINA 2 — Antes de procurar
 TIPO: conteúdo
 TEXTO (literal):
-Antes de procurar: 3 verdades sobre renda no Paraguai
+3 vantagens de quem trabalha no Paraguai
 
-1. Os salários locais costumam ser menores que no Brasil. Para muitas famílias, o melhor plano é chegar com renda que já existe (trabalho remoto, clientes no Brasil, aposentadoria, negócio) e buscar o emprego local como complemento.
-2. O espanhol abre portas. Em vagas com atendimento ao público, falar bem espanhol é decisivo. Em algumas regiões, o guarani também é valorizado.
-3. Você pode trabalhar desde o protocolo. Como residente precário, já pode trabalhar legalmente enquanto a residência é analisada.
+1. Você fica com mais do que ganha. Imposto de renda pessoal de 8% a 10%, isenção para renda de serviços abaixo de Gs 80 milhões por ano e renda de fonte estrangeira fora do IRP.
+2. Falar português é um diferencial. Comércio, turismo, atendimento e empresas que negociam com o Brasil valorizam quem fala português e espanhol.
+3. Você começa a trabalhar desde o protocolo. Como residente precário, já pode trabalhar legalmente enquanto a residência é analisada.
 
-[box-atencao] Se você vai continuar recebendo de clientes ou empresas do Brasil, converse com um contador nos dois países sobre onde e como declarar essa renda. Fazer isso errado gera problemas nos dois lados.
+A estratégia mais usada: chegar com uma renda que já existe (trabalho remoto, clientes no Brasil, negócio) e somar as oportunidades locais. Os canais a seguir cobrem os dois lados.
+
+[box-dica] Vai continuar recebendo do Brasil? Combine com um contador a saída fiscal (Guia, Passo 12) para pagar imposto do jeito certo — e só uma vez.
 
 ---
 
@@ -109,8 +111,8 @@ TEXTO (literal):
 Negócios e qualificação
 
 16. SUACE — Sistema Unificado de Apertura y Cierre de Empresas
-Para que serve: abertura e encerramento de empresas em um único sistema.
-Dica: converse com um contador local antes de escolher o tipo de empresa.
+Para que serve: abertura de empresas, inclusive a EAS (Empresa por Ações Simplificada), que é feita pela internet.
+Dica: para abrir uma EAS, o representante legal precisa ter cédula paraguaia. Converse com um contador local para escolher o melhor formato.
 
 17. DNIT — Dirección Nacional de Ingresos Tributarios — dnit.gov.py
 Para que serve: registro de contribuinte (RUC), notas fiscais e impostos.

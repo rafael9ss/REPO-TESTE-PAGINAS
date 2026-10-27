@@ -58,7 +58,7 @@ Objetivo: saber exatamente quem vai, para onde, por qual rota e com quanto dinhe
 
 DIA 1 — Defina o projeto
 ☐ Escreva quem vai na mudança e a data desejada de viagem.
-☐ Leia os capítulos 1 a 4 do Guia Prático.
+☐ Leia os capítulos 1 a 4 do Guia Prático (comece pelo "Por que o Paraguai").
 ☐ Crie uma pasta física e uma pasta digital (nuvem) chamadas "Paraguai".
 
 DIA 2 — Confira os documentos de identidade
@@ -67,7 +67,7 @@ DIA 2 — Confira os documentos de identidade
 ☐ Fotografe os documentos e salve na pasta digital.
 
 DIA 3 — Escolha a rota
-☐ Use o fluxograma da página 9 do Guia.
+☐ Use o fluxograma "Qual rota escolher?" do Guia (Capítulo 3).
 ☐ Anote: "Minha rota é ________".
 ☐ Abra o Checklist 1 e marque quais documentos você já tem.
 
@@ -87,9 +87,9 @@ DIA 6 — Planeje a renda
 ☐ Cadastre seu currículo em pelo menos 2 canais da lista, se for buscar emprego local.
 
 DIA 7 — Revisão da semana
-☐ Refaça o teste "Você está pronto?" (página 6 do Guia).
+☐ Refaça o "Teste rápido" do Guia (Capítulo 1).
 ☐ Confirme: a reserva cobre a mudança + 6 meses de custo?
-☐ Se a resposta for não, ajuste a data de viagem antes de seguir.
+☐ Se ainda não cobre, ajuste a data de viagem e siga — o cronograma continua valendo, no seu ritmo.
 
 ---
 
@@ -126,7 +126,7 @@ DIA 12 — Documentos dos filhos (se houver)
 ☐ Peça na escola a declaração de escolaridade e o histórico escolar.
 
 DIA 13 — Pendências no Brasil
-☐ Agende conversa com contador sobre a Saída Definitiva do País (Receita Federal).
+☐ Agende conversa com contador sobre a Saída Definitiva do País (Guia, Passo 12).
 ☐ Avise bancos e cartões; mantenha uma conta ativa.
 ☐ Defina quem vai ter procuração para você no Brasil.
 
@@ -247,4 +247,4 @@ Meu calendário de prazos
 | 120 dias antes do vencimento (começar a juntar documentos) | ___/___/______ |
 | 90 dias antes do vencimento (pedir a permanente) | ___/___/______ |
 
-Parabéns por chegar até aqui. A parte mais difícil — começar — ficou para trás.
+Parabéns: você está morando no Paraguai, com a residência a caminho. A parte mais difícil — começar — ficou para trás.

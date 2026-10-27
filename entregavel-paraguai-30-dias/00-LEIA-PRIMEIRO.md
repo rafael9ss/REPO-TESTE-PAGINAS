@@ -15,7 +15,7 @@
 
 | Ordem | Arquivo | Material final | Páginas |
 |---|---|---|---|
-| 1 | `02-guia-pratico-imigracao.md` | Guia principal (PDF) — inclui a Parte 2, Passo a Passo Detalhado | 38 |
+| 1 | `02-guia-pratico-imigracao.md` | Guia principal (PDF) — inclui a Parte 2, Passo a Passo Detalhado (13 fichas) | 45 |
 | 2 | `03-cronograma-30-dias.md` | Cronograma (PDF imprimível) | 7 |
 | 3 | `04-checklists-documentacao.md` | 3 checklists (3 PDFs) | 3 × 2 |
 | 4 | `05-mapa-processo-residencia.md` | Mapa do processo (PDF visual) | 3 |

@@ -33,7 +33,7 @@ As notas são uma comparação entre estas 5 cidades, não uma avaliação absol
 
 Sobre os valores de aluguel: são faixas observadas em anúncios publicados em 2026, não valores de contratos fechados. O preço real depende muito do bairro, do estado do imóvel e de ser mobiliado ou não. Use as faixas para ter uma ideia e confirme sempre com anúncios atuais — a última página tem uma tabela para você registrar a sua pesquisa.
 
-[box-atencao] Em 2026, o guaraní se valorizou frente ao real. Valores em dólar ou em guaranis podem parecer baixos, mas convertidos para reais podem surpreender. Sempre converta na Planilha de Custos.
+[box-dica] Os aluguéis são anunciados em guaranis ou em dólares. Converta sempre para reais na Planilha de Custos, com a cotação do dia, para comparar com o que você paga hoje.
 
 ---
 
@@ -178,7 +178,7 @@ Comparativo rápido
 | San Bernardino | ●●●○○ | ●●○○○ | ●○○○○ | ●●●●● | ●●○○○ |
 
 E Pedro Juan Caballero?
-Ela é muito procurada por quem vem do Mato Grosso do Sul, por fazer fronteira seca com Ponta Porã. Ficou fora da lista porque a região tem histórico frequente de violência ligada ao crime organizado na fronteira. Se for considerar, pesquise a situação atual de segurança e visite antes de decidir.
+É muito procurada por quem vem do Mato Grosso do Sul, por fazer fronteira seca com Ponta Porã. Não entrou nas 5 fichas porque a região de fronteira tem um histórico de ocorrências ligadas ao crime organizado. Se ela estiver nos seus planos, visite, converse com moradores e pesquise a situação atual antes de decidir.
 
 Minha pesquisa de aluguel
 | Cidade / bairro | Tipo de imóvel | Valor anunciado | Mobiliado? | Link ou contato |

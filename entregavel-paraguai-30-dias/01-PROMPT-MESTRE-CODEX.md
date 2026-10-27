@@ -121,8 +121,10 @@ Prompt-base para TODAS as artes (acrescente ao prompt específico de cada págin
 
 ## TOM E ACESSIBILIDADE
 
-- O texto já está escrito no tom certo (claro, direto, honesto). Não adicione exclamações,
-  emojis ou frases motivacionais.
+- O texto já está escrito no tom certo: encorajador, prático e direto — mostra que a mudança é
+  possível e como fazer. O visual deve transmitir a mesma sensação de conquista e confiança
+  (cores vivas, pessoas sorrindo, cenas de nova rotina). Não adicione texto, exclamações ou emojis
+  por conta própria.
 - Contraste mínimo AA. Nunca texto sobre foto sem caixa de fundo.
 - Os PDFs imprimíveis (cronograma, checklists) devem funcionar em impressão preto e branco:
   não dependa só de cor para transmitir informação.
